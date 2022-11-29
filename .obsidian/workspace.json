@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "2bb62b5a49b618da",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca7d045c0ef7c3f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a552c1213150ca95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Decision Tree.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00b48bd41fccfc7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ensemble Modeling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "484b178a32ad141b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "K-nearest neighbors (kNN).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee0bf0742bb49f39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "K-nearest neighbors (kNN).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "613a21251c3b188f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Model Selection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54cb634e86d3787b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Akaike information criteria.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2dcf2560a5d2603a",
+    "type": "split",
+    "children": [
+      {
+        "id": "65cc7ed4afc55676",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6679a13a0f2dead2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6ee9a5692eeb8af5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d2fbae3e776b9cfc",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1788f0cf19b66ed9",
+    "type": "split",
+    "children": [
+      {
+        "id": "e45a3c8abd7e8b17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f114acf1a38afd2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Akaike information criteria.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3cd659a851aaf1ee",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Akaike information criteria.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "704ab45e4f0e766f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "80d6e8447da470cb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Akaike information criteria.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "54cb634e86d3787b",
+  "lastOpenFiles": [
+    "Model Selection.md",
+    "Akaike information criteria.md",
+    "K-nearest neighbors (kNN).md",
+    "K-means.md",
+    "Ensemble Modeling.md",
+    "AdaBoost.md",
+    "Weak_Learners_web.png",
+    "Decision_Tree_Regression_web.png",
+    "Boosting.md",
+    "Bagging.md"
+  ]
+}

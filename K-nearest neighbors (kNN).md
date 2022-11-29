@@ -1,0 +1,33 @@
+- Non-parametric, supervised algorithm, which uses proximity to make predictions
+- "Lazy learning" models: no training stage, it only stores a training dataset, also called instance-based or memory based learning method
+- Make prediction using kNN
+	- Calculate distances
+		- Distance metrics
+			- Euclidean distance
+			- Manhattan distance
+			- Minkowski distance
+			- Hamming distance
+		- Efficiently to find neighbors, original O(nd), n - number of training data, d - feature dimension
+			- K-D tree (https://www.youtube.com/watch?v=Y4ZgLlDfKDg&list=PLBv09BD7ez_48heon5Az-TsyoXVYOJtDZ&index=15)
+				- Pick a random feature dimension, find median, split data, repeat until each leaf has less than k data points
+			- inverted lists (https://www.youtube.com/watch?v=Mlp8hlKwETs&list=PLBv09BD7ez_48heon5Az-TsyoXVYOJtDZ&index=17)
+			- local sensitive hashing (LSH) (https://www.youtube.com/watch?v=LqcwaW2YE_c&list=PLBv09BD7ez_48heon5Az-TsyoXVYOJtDZ&index=16)
+	- Define k: the number of neighbors to be checked
+		- lower k: overfitting, low bias, high variance
+		- higher k: underfitting, high bias, low variance
+		- Find optimal k: use cross validation and see what k gives the lowest error
+	- Majority vote
+		- The prediction is "voted" by the found nearest neighbors (vote can be weighted; take average for regression task)
+- Pros and Cons
+	- Pros
+		- Simple
+		- Adapt easily with new training samples
+		- Few hyperparameters
+	- Cons
+		- Inefficient on large dataset
+		- Curse of dimensionality
+		- Prone to overfitting
+- Reference
+	- https://www.ibm.com/topics/knn
+![[k-Nearest_Neighbors_web.png]]
+![[Does-k-NN-Learn_web 1.png]]![[K-NN_Neighborhood_Size_web.png]]![[Imputation_Using_k-NN_web 1.png]]
