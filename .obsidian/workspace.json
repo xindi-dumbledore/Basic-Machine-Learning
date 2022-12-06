@@ -42,9 +42,69 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "00dc927e40231adb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "K-nearest neighbors (kNN).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3d5934b73e4365ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLP/SentencePiece.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "678f9b56484143c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLP/Topic Models.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7eca3a67ab63c839",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLP/Vocabulary & Feature Extraction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "48d7f2dbc685bb30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Singular Value Decomposition (SVD).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -74,9 +134,9 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -110,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Logistic Regression.md",
+                "file": "NLP/Topic Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Logistic Regression.md",
+                "file": "NLP/Topic Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Logistic Regression.md"
+                "file": "NLP/Topic Models.md"
               }
             }
           }
@@ -161,17 +221,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8e7a643cdccea2f3",
+  "active": "678f9b56484143c8",
   "lastOpenFiles": [
-    "Machine Learning Process.md",
-    "Logistic Regression.md",
-    "Linear Regression.md",
     "NLP/Vocabulary & Feature Extraction.md",
-    "Tokenization.md",
-    "SentencePiece.md",
-    "Byte Pair Encoding (BPE).md",
-    "Text Preprocessing.md",
-    "Decision Tree.md",
-    "Ensemble Modeling.md"
+    "NLP/TF-IDF.md",
+    "NLP/Topic Models.md",
+    "NLP/SentencePiece.md",
+    "Principal Component Analysis (PCA).md",
+    "Singular Value Decomposition (SVD).md",
+    "K-nearest neighbors (kNN).md",
+    "K-means.md",
+    "Linear Regression.md",
+    "Logistic Regression.md"
   ]
 }

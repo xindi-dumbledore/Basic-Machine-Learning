@@ -30,4 +30,4 @@
 - Reference
 	- https://www.ibm.com/topics/knn
 ![[k-Nearest_Neighbors_web.png]]
-![[Does-k-NN-Learn_web 1.png]]![[K-NN_Neighborhood_Size_web.png]]![[Imputation_Using_k-NN_web 1.png]]
+![[Does-k-NN-Learn_web.png]]![[K-NN_Neighborhood_Size_web.png]]![[Imputation_Using_k-NN_web.png]]

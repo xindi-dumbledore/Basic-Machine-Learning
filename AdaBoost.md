@@ -29,4 +29,4 @@
 	- https://www.analyticsvidhya.com/blog/2021/09/adaboost-algorithm-a-complete-guide-for-beginners/
 	- https://www.researchgate.net/publication/2424244_Improving_Regressors_Using_Boosting_Techniques
 	- https://www.youtube.com/watch?v=LsK-xG1cLYA
-![[AdaBoost_web 1.png]]
+![[AdaBoost_web.png]]
