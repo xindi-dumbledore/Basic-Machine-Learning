@@ -40,3 +40,4 @@ There are two types of scoring models in general:
 
 ## Reference
 1. https://towardsdatascience.com/learning-to-rank-a-complete-guide-to-ranking-using-machine-learning-4c9688d370d4
+2. https://embracingtherandom.com/machine-learning/tensorflow/ranking/deep-learning/learning-to-rank-part-2/#converting-scores-and-relevance-labels-into-probability-distributions

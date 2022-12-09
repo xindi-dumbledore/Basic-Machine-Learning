@@ -61,7 +61,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gradient Boosting Trees.md",
+                "file": "Ranking Models.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad3720b60323d3fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Loss Function Glossary.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gradient Boosting Trees.md",
+                "file": "Loss Function Glossary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gradient Boosting Trees.md",
+                "file": "Loss Function Glossary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gradient Boosting Trees.md"
+                "file": "Loss Function Glossary.md"
               }
             }
           }
@@ -193,13 +205,13 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ce7824b7256fa7df",
+  "active": "ad3720b60323d3fd",
   "lastOpenFiles": [
-    "AdaBoost.md",
     "Ranking Models.md",
+    "Gradient Boosting Trees.md",
+    "AdaBoost.md",
     "Akaike information criteria.md",
     "NLP/Topic Models.md",
-    "Gradient Boosting Trees.md",
     "Naive Bayes Classifier.md",
     "Gaussian_Naive_Bayes_Classifier_web 1.png.md",
     "Vector space models.md",
