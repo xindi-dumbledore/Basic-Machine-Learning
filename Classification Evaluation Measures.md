@@ -1,4 +1,5 @@
 #evaluate
+This page listed common regression evaluation measures. They can be used for models like [[Logistic Regression]], [[Decision Tree]] Regressor, etc.
 
 ## Confusion Matrix
 Confusion matrix is the table contains 4 outputs from binary classifier. Various measures can be calculated from the confusion matrix.
@@ -29,6 +30,7 @@ Follow the convention of treating null hypothesis as 0, and alternative hypothes
 1. We can calculate above basic metrics for each class (one vs rest), and aggregate them (e.g.take the mean). FOR ROC curve, we can also generate a curve for each class.
 2. Cohen's kappa coefficient #todo
 3. Matthew's correlation coefficient #todo
+
 
 ## References
 1. Multi-class evaluation: https://towardsdatascience.com/comprehensive-guide-on-multiclass-classification-metrics-af94cfb83fbd
