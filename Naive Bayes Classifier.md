@@ -12,6 +12,6 @@ $$P(y|x_1, ..., x_n) \propto P(x_1|y)P(x_2|y)...P(x_n|y)P(y) = P(y)\prod_i^nP(x_
 - If the feature is categorical, we simply count to get $P(x_i|y)$, if it is numerical, we can assume some distribution over the features (e.g. Gaussian), and calculate probability using that
 - Inference
 	- We simple compute $P(y|x1, ...,x_n)$ for each possible $y$, normalize the obtained probabilities, and pick the one with the highest probability.
-![[Gaussian_Naive_Bayes_Classifier_web 1.png]]
+![[Gaussian_Naive_Bayes_Classifier_web.png]]
 ## Reference
 1. https://www.geeksforgeeks.org/naive-bayes-classifiers/

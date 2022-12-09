@@ -47,8 +47,12 @@
             "id": "fa400654f5037d3a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Gradient Boosting Trees.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -57,10 +61,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ranking Models.md",
+                "file": "Gradient Boosting Trees.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "e342e50dcc039d8f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ranking Models.md",
+                "file": "Gradient Boosting Trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ranking Models.md",
+                "file": "Gradient Boosting Trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ranking Models.md"
+                "file": "Gradient Boosting Trees.md"
               }
             }
           }
@@ -183,15 +195,15 @@
   },
   "active": "ce7824b7256fa7df",
   "lastOpenFiles": [
-    "Classification Evaluation Measures.md",
-    "Regression Evaluation Measure.md",
-    "Linear Regression.md",
+    "AdaBoost.md",
+    "Ranking Models.md",
     "Akaike information criteria.md",
     "NLP/Topic Models.md",
-    "K-nearest neighbors (kNN).md",
-    "Logistic Regression.md",
-    "NLP/SentencePiece.md",
-    "NLP/Vocabulary & Feature Extraction.md",
-    "Learning to Rank Evaluation Measures.md"
+    "Gradient Boosting Trees.md",
+    "Naive Bayes Classifier.md",
+    "Gaussian_Naive_Bayes_Classifier_web 1.png.md",
+    "Vector space models.md",
+    "Classification Evaluation Measures.md",
+    "Regression Evaluation Measure.md"
   ]
 }
