@@ -4,91 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7b6b16dc7ec47061",
+        "id": "c6a6a38142716038",
         "type": "tabs",
         "children": [
           {
-            "id": "8e7a643cdccea2f3",
+            "id": "b3ad3df3ed9b9e84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Akaike information criteria.md",
+                "file": "Recurrent Neural Networks (RNN).md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "3d5934b73e4365ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLP/SentencePiece.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "678f9b56484143c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLP/Topic Models.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa400654f5037d3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gradient Boosting Trees.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ce7824b7256fa7df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ranking Models.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad3720b60323d3fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Loss Function Glossary.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e342e50dcc039d8f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +51,7 @@
                 "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -138,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 219.5
   },
   "right": {
     "id": "1788f0cf19b66ed9",
@@ -154,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Loss Function Glossary.md",
+                "file": "Recurrent Neural Networks (RNN).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Loss Function Glossary.md",
+                "file": "Recurrent Neural Networks (RNN).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Loss Function Glossary.md"
+                "file": "Recurrent Neural Networks (RNN).md"
               }
             }
           }
@@ -205,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ad3720b60323d3fd",
+  "active": "b3ad3df3ed9b9e84",
   "lastOpenFiles": [
-    "Ranking Models.md",
-    "Gradient Boosting Trees.md",
-    "AdaBoost.md",
-    "Akaike information criteria.md",
-    "NLP/Topic Models.md",
-    "Naive Bayes Classifier.md",
-    "Gaussian_Naive_Bayes_Classifier_web 1.png.md",
-    "Vector space models.md",
-    "Classification Evaluation Measures.md",
-    "Regression Evaluation Measure.md"
+    "NLP/Language Modeling.md",
+    "Regularization.md",
+    "Speed Up Training.md",
+    "Vanishing and Exploding Gradients.md",
+    "Gradient Descent with Momentum.md",
+    "RMSprop.md",
+    "Learning Rate Decay.md",
+    "Batch Normalization.md",
+    "Layer Normalization.md",
+    "Decision Tree.md"
   ]
 }

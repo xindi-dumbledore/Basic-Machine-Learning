@@ -1,0 +1,12 @@
+- RNN is a family of neural architectures, besides the simplest form, other RNN examples include [[LSTM]] and [[GRU]]
+- Basic Idea
+	- 
+- Pros and Cons
+	- Pros
+		- Can process any length input
+		- Computation for step t can use information from many steps back (in theory)
+		- Model size doesn't increase for longer input context
+		- Same weights applied on every time step, so there is symmetry in how inputs are processed
+	- Cons
+		- Recurrent computation is slow
+		- In practice, difficult to access information from many steps back

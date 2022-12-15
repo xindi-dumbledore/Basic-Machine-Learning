@@ -8,7 +8,7 @@ The "gradient" in gradient boosting can be viewed as this:
 - in gradient boosting, we don't have explicit form of loss function, therefore, we calculate the gradient of the loss function respect to the predicted value
 
 ## Gradient Boosting General Framework
-- Input: Data $\{(x_i, y_i\}_{i=1}^n$, and a differentiable loss function $L(y_i, F(x))$
+- Input: Data $\{(x_i, y_i)\}_{i=1}^n$, and a differentiable loss function $L(y_i, F(x))$
 - Step 1: Initialize model with a constant value: $F_0(x) = argmin_{\gamma} \sum_{i=1}^n L(y_i, \gamma)$
 - Step 2: For m = 1 to M (i.e. build M trees):
 	- Compute pseudo residual $$r_{im} = -[\frac{\partial L(y_i, F(x_i))}{\partial F(x_i)}]_{F(x) = F_{m-1}(x)}$$ for $i = 1, ..., n$
@@ -33,7 +33,6 @@ The "gradient" in gradient boosting can be viewed as this:
 	- Approximate the Loss function using 2nd order Taylor Polynomial Expansion, then take the derivative on the Taylor expansion:
 	$$\gamma_{jm} = \frac{\sum_{x_i \in R_{jm}} (y_i - p)}{\sum_{x_i \in R_{jm}} {p(1-p)}}$$
 - $F_m(x) = F_{m-1}(x) + \nu \sum_{j =1}^{J_m} \gamma_{jm} I(x\in R_{jm})$, i.e. update the prediction function by adding all the output values for each leaf, and multiply by the learning rate $\nu$
-
 
 ## Reference
 https://www.youtube.com/watch?v=3CC4N4z3GJc
