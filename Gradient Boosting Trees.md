@@ -6,8 +6,9 @@ Gradient Boosting is a generic framework that can be applied on any loss functio
 The "gradient" in gradient boosting can be viewed as this:
 - in traditional machine learning, we have a explicit form of loss function, and we calculate gradient on the parameters in the loss function
 - in gradient boosting, we don't have explicit form of loss function, therefore, we calculate the gradient of the loss function respect to the predicted value
+
 ## Gradient Boosting General Framework
-- Input: Data $\{(x_i, y_i\}_{i=1}^n$, and a differentiable loss function $L(y_i, F(x))$
+- Input: Data $\{(x_i, y_i)\}_{i=1}^n$, and a differentiable loss function $L(y_i, F(x))$
 - Step 1: Initialize model with a constant value: $F_0(x) = argmin_{\gamma} \sum_{i=1}^n L(y_i, \gamma)$
 - Step 2: For m = 1 to M (i.e. build M trees):
 	- Compute pseudo residual $$r_{im} = -[\frac{\partial L(y_i, F(x_i))}{\partial F(x_i)}]_{F(x) = F_{m-1}(x)}$$ for $i = 1, ..., n$
@@ -29,10 +30,11 @@ The "gradient" in gradient boosting can be viewed as this:
 - $r_{im} = -[y_i - p]_{F(x) = F_{m-1}(x)}$, i.e. residual calculated with last step prediction
 - Fit a regression tree to the $r_{im}$ values and create terminal regions (i.e. leaves) $R_{jm}$, for $j = 1 ... J_m$ 
 - Calculate output values for each leaf: For $j = 1 ...J_m$ (i.e. each leaf), $\gamma_{jm} = argmin_{\gamma} \sum_{x_i\in R_{jm}}^n L(y_i, F_{(m-1)}(x_i) + \gamma)$
-	- Approximate the Loss function using 2nd order Taylor Polynomial Expansion, then take the derivative on the Taylor expansion
-	- $\gamma = \sum_i \frac{\sum {residual}}{\sum {p(1-p)}}$
+	- Approximate the Loss function using 2nd order Taylor Polynomial Expansion, then take the derivative on the Taylor expansion:
+	$$\gamma_{jm} = \frac{\sum_{x_i \in R_{jm}} (y_i - p)}{\sum_{x_i \in R_{jm}} {p(1-p)}}$$
 - $F_m(x) = F_{m-1}(x) + \nu \sum_{j =1}^{J_m} \gamma_{jm} I(x\in R_{jm})$, i.e. update the prediction function by adding all the output values for each leaf, and multiply by the learning rate $\nu$
 
 ## Reference
 https://www.youtube.com/watch?v=3CC4N4z3GJc
 https://stats.stackexchange.com/questions/338658/gradient-in-gradient-boosting
+https://towardsdatascience.com/all-you-need-to-know-about-gradient-boosting-algorithm-part-2-classification-d3ed8f56541e
