@@ -8,12 +8,48 @@
         "type": "tabs",
         "children": [
           {
+            "id": "6ffda529b27909ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9dbf845ce6bc6f54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "8e7a643cdccea2f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Akaike information criteria.md",
+                "file": "Logistic Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00dc927e40231adb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "K-nearest neighbors (kNN).md",
                 "mode": "source",
                 "source": false
               }
@@ -44,39 +80,67 @@
             }
           },
           {
+            "id": "ec7eeb7868e31d77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning to Rank Evaluation Measures.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a7ebf98effe90fa4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Classification Evaluation Measures.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "fa400654f5037d3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gradient Boosting Trees.md",
+                "file": "Ranking Models.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ce7824b7256fa7df",
+            "id": "7eca3a67ab63c839",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gradient Boosting Trees.md",
+                "file": "NLP/Vocabulary & Feature Extraction.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e342e50dcc039d8f",
+            "id": "48d7f2dbc685bb30",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Singular Value Decomposition (SVD).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -105,7 +169,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "dropout",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -122,7 +186,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -142,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gradient Boosting Trees.md",
+                "file": "Ranking Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gradient Boosting Trees.md",
+                "file": "Ranking Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gradient Boosting Trees.md"
+                "file": "Ranking Models.md"
               }
             }
           }
@@ -193,17 +258,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ce7824b7256fa7df",
+  "active": "6ee9a5692eeb8af5",
   "lastOpenFiles": [
-    "AdaBoost.md",
-    "Ranking Models.md",
-    "Akaike information criteria.md",
-    "NLP/Topic Models.md",
-    "Gradient Boosting Trees.md",
-    "Naive Bayes Classifier.md",
-    "Gaussian_Naive_Bayes_Classifier_web 1.png.md",
-    "Vector space models.md",
+    "Regression Evaluation Measure.md",
     "Classification Evaluation Measures.md",
-    "Regression Evaluation Measure.md"
+    "Learning to Rank Evaluation Measures.md",
+    "NLP/Topic Models.md",
+    "NLP/Vocabulary & Feature Extraction.md",
+    "NLP/TF-IDF.md",
+    "NLP/SentencePiece.md",
+    "Principal Component Analysis (PCA).md",
+    "Singular Value Decomposition (SVD).md",
+    "K-nearest neighbors (kNN).md"
   ]
 }
