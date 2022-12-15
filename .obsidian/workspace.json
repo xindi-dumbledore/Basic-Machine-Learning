@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "c6a6a38142716038",
+        "id": "7b6b16dc7ec47061",
         "type": "tabs",
         "children": [
           {
-            "id": "b3ad3df3ed9b9e84",
+            "id": "fa400654f5037d3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recurrent Neural Networks (RNN).md",
+                "file": "Vanishing and Exploding Gradients.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a3416e9725e7c39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transformer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff614aef46bb8077",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Layer Normalization.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -51,7 +76,7 @@
                 "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 200
   },
   "right": {
     "id": "1788f0cf19b66ed9",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recurrent Neural Networks (RNN).md",
+                "file": "Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recurrent Neural Networks (RNN).md",
+                "file": "Transformer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recurrent Neural Networks (RNN).md"
+                "file": "Transformer.md"
               }
             }
           }
@@ -136,17 +161,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b3ad3df3ed9b9e84",
+  "active": "9a3416e9725e7c39",
   "lastOpenFiles": [
-    "NLP/Language Modeling.md",
-    "Regularization.md",
-    "Speed Up Training.md",
-    "Vanishing and Exploding Gradients.md",
-    "Gradient Descent with Momentum.md",
-    "RMSprop.md",
-    "Learning Rate Decay.md",
-    "Batch Normalization.md",
     "Layer Normalization.md",
-    "Decision Tree.md"
+    "Transformer.md",
+    "NLP/Attention and Self Attention.md",
+    "[Layer Normalization.md",
+    "NLP/Recurrent Neural Networks (RNN).md",
+    "K-nearest neighbors (kNN).md",
+    "NLP/Seq2Seq.md",
+    "pngs/seq2seq_train.png",
+    "pngs/attention.png",
+    "pngs/simple_rnn.png"
   ]
 }

@@ -1,4 +1,5 @@
-- Non-parametric, supervised algorithm, which uses proximity to make predictions
+#classification 
+-  Non-parametric, supervised algorithm, which uses proximity to make predictions
 - "Lazy learning" models: no training stage, it only stores a training dataset, also called instance-based or memory based learning method
 - Make prediction using kNN
 	- Calculate distances

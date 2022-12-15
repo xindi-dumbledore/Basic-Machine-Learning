@@ -22,9 +22,11 @@ $$\tilde{x}_i=\gamma x_i^{norm}+\beta$$
 
 We can see from the math above that **layer normalization has nothing to do with other samples in the batch.**
 
+LayerNorm's success may be due to its normalizing gradients
+
 ## Usages
-[[RNN]]
-[[Transformers]]
+[[Recurrent Neural Networks (RNN)]]
+[[Transformer]]
 
 ![[batch_norm.png]]
 ![[layer_norm.png]]
