@@ -32,7 +32,12 @@ With multi-headed attention, we can look at the sentences "multiple times", each
 - We calculate the attention for each head separately
 - Finally, the attention from all heads are concatenated $[a_1, a_2, ...a_h]$
 ### Encoder-Decoder Cross-Attention
-
+We also attend decoder to encoder.
+- Query: vectors from decoder $Z = [z_1; ...;z_T]$, $Q$ as query matrix
+- Key and value: output vectors from the encoder $H = [h_1;...;h_T]$, $K$ and $V$ as key and value matrix
+- dot product: $(ZQ)(HK)^T$
+- softmax: $\text{softmax}(ZQK^TH^T)$
+- attention value: $\text{softmax}(ZQK^TH^T)(HV)$
 ### Tricks to help with training
 - Residual connections
 - [[Layer Normalization]]

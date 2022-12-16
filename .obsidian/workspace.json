@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "K-means.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "18177aa7e4ac980c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Transformer.md",
                 "mode": "source",
                 "source": false
@@ -32,19 +44,19 @@
             }
           },
           {
-            "id": "ff614aef46bb8077",
+            "id": "4026f8280dc431d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Layer Normalization.md",
+                "file": "T5.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "transformer",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -90,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -161,17 +174,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9a3416e9725e7c39",
+  "active": "18177aa7e4ac980c",
   "lastOpenFiles": [
-    "Layer Normalization.md",
+    "Dropout.md",
     "Transformer.md",
-    "NLP/Attention and Self Attention.md",
+    "NLP/BERT.md",
+    "T5.md",
+    "cs224n-2021-lecture09-transformers.pdf",
     "[Layer Normalization.md",
-    "NLP/Recurrent Neural Networks (RNN).md",
-    "K-nearest neighbors (kNN).md",
-    "NLP/Seq2Seq.md",
-    "pngs/seq2seq_train.png",
-    "pngs/attention.png",
-    "pngs/simple_rnn.png"
+    "NLP/Byte Pair Encoding (BPE).md",
+    "GPT.md",
+    "K-means.md",
+    "Layer Normalization.md"
   ]
 }
