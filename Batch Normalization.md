@@ -1,3 +1,5 @@
+#deep_learning
+
 ## One Line Summary
 Similar to normalizing inputs to speed up learning, we normalize values of each neurons (usually before activations) in a layer $l$, so that the training parameters in $l+1$ will be faster. The "batch" in batch normalization reflects that we do the normalization for each mini-batch.
 

@@ -1,3 +1,4 @@
+#deep_learning 
 ## One line Summary
 Input values in all neurons in the same layer are normalized for each data sample. In other word, it treats each output as a data sample with features, and normalize across the features. 
 

@@ -22,3 +22,18 @@ To describe it in a more mathy way:
 - 在LDA模型中， 每篇⽂档的topic分布服从⼀个多项分布， 同时这个topic分布（多项分布）的参数又服从⼀个Dirichlet分布。 每⼀篇⽂档的都对应⼀个不同的topic分布， 即多项分布。 同时， LDA中的每个topic下存在⼀个term的单词多项分布， 即每个topic下的单词都服从多项分布， 并且每个topic对应的多项分布的参数都服从⼀个Dirichlet分布， 这也是为什么LDA的名字由来， 因为存在两个隐含的Dirichlet分布。
 
 ### Inference: Gibbs Sampling
+
+## Top2Vec
+### Process
+1. Generate embedding vectors for documents and words
+	- use doc2vec, which jointly embed document and word vectors together
+2. Perform dimensionality reduction on the vectors using algorithms such as [[UMAP]]
+3. Cluster the vectors using a clustering algorithm such as [[DBSCAN#HDBSCAN]]
+4. Assign topics to each cluster
+	- Each cluster of documents is considered a topic
+	- Each topic can be represented as a topic vector - the centroid (average point) of the original documents belonging to that topic cluster
+	- Each topic can be labeled with a set of keywords, where we can obtained from obtaining the n-closest words to the topic centroid vector
+
+## Reference
+1. Top2Vec: https://towardsdatascience.com/how-to-perform-topic-modeling-with-top2vec-1ae9bb4e89dc
+2. https://arxiv.org/pdf/2008.09470.pdf

@@ -1,3 +1,4 @@
+#deep_learning 
 ## Implementing dropout ("Inverted dropout")
 ### Training
 For every iteration
@@ -7,6 +8,8 @@ for each layer l:
 	a_l = np.multiply(a_l, d_l) # zeroing out activations for some neurons according to d_l
 	a_l /= keep_prob # normalization, key to inverted dropout
 ```
+Note: we divide the final number by `keep_prob` so that the overall sum of the neuron values remains the same with and without dropout.
+
 ### Testing
 Don't use dropout
 

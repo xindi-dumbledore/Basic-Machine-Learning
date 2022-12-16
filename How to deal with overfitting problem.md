@@ -1,3 +1,5 @@
+#trick
+
 - Get more training data
 - Always have validation set to evaluate performance and do hyperparameter tuning
 - [[Regularization]]

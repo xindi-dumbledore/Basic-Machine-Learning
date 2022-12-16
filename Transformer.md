@@ -16,8 +16,8 @@ The Transformer Encoder-Decoder
 	- No nonlinearities for deep learning! (it's just weighted averages): Add a feed-forward network to pos-process each output vector
 	- Need to ensure we don't "look at future" when predicting a sequence! : [[Attention and Self Attention#Self Attention in detail#Masking the Future in Self Attention]]
 ## Details
-![[Pasted image 20221215095641.png]]
-![[Pasted image 20221215095650.png]]
+![[transformer_encoder.png]]
+![[transformer_decoder.png]]
 ### Key-Query-Value Attention
 In transformer, we don't simply set key, query and value to all be the input embeddings. Rather, we have learnable matrices: key matrix, query matrix and value matrix to obtain the key, query and value.
 $$k_i = Kx_i, q_i = Qx_i, v_i = Vx_i$$

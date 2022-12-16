@@ -8,55 +8,42 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fa400654f5037d3a",
+            "id": "9804ab19357074c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vanishing and Exploding Gradients.md",
+                "file": "NLP/Topic Models.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9a3416e9725e7c39",
+            "id": "4c01232785ac3617",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "K-means.md",
+                "file": "DBSCAN.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "18177aa7e4ac980c",
+            "id": "58ec956028cb218c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transformer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4026f8280dc431d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "T5.md",
+                "file": "t-SNE.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "transformer",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -102,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transformer.md",
+                "file": "NLP/Topic Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Transformer.md",
+                "file": "NLP/Topic Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Transformer.md"
+                "file": "NLP/Topic Models.md"
               }
             }
           }
@@ -174,17 +160,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "18177aa7e4ac980c",
+  "active": "9804ab19357074c2",
   "lastOpenFiles": [
-    "Dropout.md",
-    "Transformer.md",
-    "NLP/BERT.md",
-    "T5.md",
-    "cs224n-2021-lecture09-transformers.pdf",
-    "[Layer Normalization.md",
-    "NLP/Byte Pair Encoding (BPE).md",
-    "GPT.md",
+    "DBSCAN.md",
+    "UMAP.md",
+    "t-SNE.md",
+    "NLP/Topic Models.md",
+    "Top2Vec.md",
+    "Loss Function Glossary.md",
     "K-means.md",
-    "Layer Normalization.md"
+    "Vanishing and Exploding Gradients.md",
+    "Machine Learning Process.md",
+    "Logistic Regression.md"
   ]
 }
