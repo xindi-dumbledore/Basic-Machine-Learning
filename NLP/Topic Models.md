@@ -34,6 +34,10 @@ To describe it in a more mathy way:
 	- Each topic can be represented as a topic vector - the centroid (average point) of the original documents belonging to that topic cluster
 	- Each topic can be labeled with a set of keywords, where we can obtained from obtaining the n-closest words to the topic centroid vector
 
+## Measure Topic Models
+### Coherence Measures
+Topic coherence measures score of a single topic by measuring the degree of semantic similarity between high scoring words in the topic. 
 ## Reference
 1. Top2Vec: https://towardsdatascience.com/how-to-perform-topic-modeling-with-top2vec-1ae9bb4e89dc
 2. https://arxiv.org/pdf/2008.09470.pdf
+3. https://towardsdatascience.com/understanding-topic-coherence-measures-4aa41339634c

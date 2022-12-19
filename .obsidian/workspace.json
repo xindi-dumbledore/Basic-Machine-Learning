@@ -4,46 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "7b6b16dc7ec47061",
+        "id": "4a353b71eaf9201b",
         "type": "tabs",
         "children": [
           {
-            "id": "9804ab19357074c2",
+            "id": "eab80748001a6bcc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Topic Models.md",
+                "file": "Bias-Variance Tradeoff.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4c01232785ac3617",
+            "id": "527bc68233294ca0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "DBSCAN.md",
-                "mode": "source",
-                "source": false
+                "file": "pngs/Bias_web.png"
               }
             }
           },
           {
-            "id": "58ec956028cb218c",
+            "id": "f9e80ee28e5eebb1",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "pngs/Bias_web.png"
+              }
+            }
+          },
+          {
+            "id": "5f89a7a153002ed4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "t-SNE.md",
+                "file": "p-value.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -72,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "transformer",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -109,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/Topic Models.md",
+                "file": "p-value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/Topic Models.md",
+                "file": "p-value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLP/Topic Models.md"
+                "file": "p-value.md"
               }
             }
           }
@@ -160,17 +169,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9804ab19357074c2",
+  "active": "5f89a7a153002ed4",
   "lastOpenFiles": [
-    "DBSCAN.md",
-    "UMAP.md",
-    "t-SNE.md",
+    "pngs/Bias_web.png",
+    "pngs/Bias-Variance_Tradeoff_web.png",
+    "Batch Normalization.md",
+    "Bias-Variance Tradeoff.md",
+    "pngs/bias_variance.png",
     "NLP/Topic Models.md",
-    "Top2Vec.md",
-    "Loss Function Glossary.md",
-    "K-means.md",
-    "Vanishing and Exploding Gradients.md",
-    "Machine Learning Process.md",
-    "Logistic Regression.md"
+    "Transformer.md",
+    "Dropout.md",
+    "NLP/BERT.md",
+    "T5.md"
   ]
 }
