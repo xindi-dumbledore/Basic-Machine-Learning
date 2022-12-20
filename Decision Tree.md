@@ -19,7 +19,7 @@
 	- Regression: take the average number of the leaf node
 - Pruning: to avoid overfit
 	- Pre-pruning
-		- Maximum depth: The tree has reached the maximum depth threeshold
+		- Maximum depth: The tree has reached the maximum depth threshold
 		- Minimum samples per leaf: Ignore leaf with less than threshold sample
 	- Post-pruning: build a overfit tree to classify training set perfectly first then prune
 		- Cost complexity Pruning (Weakest Link Pruning)
@@ -28,7 +28,7 @@
 			- Build all the subtree till there is only 1 node in the tree
 			- Select optimal subtree: use cross-validation technique to select the best subtree
 			- Equivalent understanding
-				-  For a tree $T$, given $\alpha$ as thecomplexity parameter, we calculate the cost-complexity measure $R_\alpha(T) = R(T) + \alpha |T|$, where $R(T)$ is the performance score of the tree $T$ (e.g. sum of residuals for regression tasks, misclassification rate for classification task) and $|T|$ is the number of leaf nodes in $T$. The cost-complexity measure is a tradeoff between performance and tree complexity.
+				-  For a tree $T$, given $\alpha$ as the complexity parameter, we calculate the cost-complexity measure $R_\alpha(T) = R(T) + \alpha |T|$, where $R(T)$ is the performance score of the tree $T$ (e.g. sum of residuals for regression tasks, misclassification rate for classification task) and $|T|$ is the number of leaf nodes in $T$. The cost-complexity measure is a tradeoff between performance and tree complexity.
 				- For each step, we select the smallest possible $\alpha$ that $R_\alpha(T-t) < R_\alpha(T)$
 - Pros and Cons
 	- Pros
