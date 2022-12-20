@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/Topic Models.md",
+                "file": "DBSCAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/Topic Models.md",
+                "file": "DBSCAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLP/Topic Models.md"
+                "file": "DBSCAN.md"
               }
             }
           }
@@ -160,12 +161,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9804ab19357074c2",
+  "active": "4c01232785ac3617",
   "lastOpenFiles": [
+    "NLP/Topic Models.md",
     "DBSCAN.md",
     "UMAP.md",
     "t-SNE.md",
-    "NLP/Topic Models.md",
     "Top2Vec.md",
     "Loss Function Glossary.md",
     "K-means.md",
