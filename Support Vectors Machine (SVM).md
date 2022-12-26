@@ -26,4 +26,5 @@ The observations on the edge and within the s#oft margin are called support vect
 
 ## References
 1. https://towardsdatascience.com/machine-learning-algorithms-from-start-to-finish-in-python-svm-d9ff9b48fd1
-2. 
+2. Jure Leskovec: https://www.youtube.com/watch?v=8xbnLHn4jjQ
+3. https://stats.stackexchange.com/questions/74499/what-is-the-loss-function-of-hard-margin-svm
