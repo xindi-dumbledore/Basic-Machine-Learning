@@ -1,5 +1,6 @@
-#trick
+#trick #overfitting 
 
+- The basic idea is if we don't have enough data, don't make model to complex (make it dumb!)
 - Get more training data
 - Always have validation set to evaluate performance and do hyperparameter tuning
 - [[Regularization]]

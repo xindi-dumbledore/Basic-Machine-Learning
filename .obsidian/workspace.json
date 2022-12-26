@@ -25,19 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Naive Bayes Classifier.md",
+                "file": "How to deal with overfitting problem.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ef4f4222cd86a2de",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.9"
               }
             }
           },
@@ -65,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +101,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -132,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Naive Bayes Classifier.md",
+                "file": "Ranking Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Naive Bayes Classifier.md",
+                "file": "Ranking Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Naive Bayes Classifier.md"
+                "file": "Ranking Models.md"
               }
             }
           }
@@ -193,17 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef4f4222cd86a2de",
+  "active": "dca90ac7dad21149",
   "lastOpenFiles": [
-    "Degenerate Feedback Loops.md",
-    "Counterfactual Learning to Rank.md",
-    "Logistic Regression.md",
-    "Ranking Models.md",
-    "Loss Function Glossary.md",
-    "LambdaRank.md",
-    "ListNet.md",
-    "Position Bias in Learning to Rank and Recommender Systems.md",
-    "Learning to Rank Evaluation Measures.md",
-    "Principal Component Analysis (PCA).md"
+    "How to deal with overfitting problem.md",
+    "Support Vectors Machine (SVM).md",
+    "Gradient Descent with Momentum.md",
+    "Exponentially Weighted Moving Averages.md",
+    "RMSprop.md",
+    "Naive Bayes Classifier.md",
+    "Model Selection.md",
+    "Dropout.md",
+    "Regularization.md",
+    "Degenerate Feedback Loops.md"
   ]
 }
