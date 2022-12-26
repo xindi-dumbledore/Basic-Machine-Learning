@@ -12,6 +12,13 @@ Proportion of relevant items found in the top-k recommendations
 
 Limitation: Precision@k and Recall@k only takes 0/1 judgement, also it doesn't take into account the ranking positions (so swap some ranking results might lead to same score)
 
+## Average Precision(AP)
+AP is the sum of precision@k for different values of k divided by the total number of relevant items in the top k results. AP penalize models that are not able to rank relevant items high in the list.
+$$AP = \frac{1}{\text{total \# of relevant items}} \sum_{k=1}^n \text{Precision@k } \times \text{Relevance@k}$$
+``
+## Mean Average Precision (MAP)
+Mean Average Precision (MAP) is simply AP over all queries.
+
 ## Mean Reciprocal Rank (MRR)
 Average of the reciprocal ranks of "the first relevant item" over a set of queries Q
 
@@ -52,4 +59,5 @@ $$\tau = \frac{C-D}{C+D}$$
 2. https://machinelearninginterview.com/topics/machine-learning/ndcg-evaluation-metric-for-recommender-systems/
 3. https://www.simplilearn.com/tutorials/statistics-tutorial/spearmans-rank-correlation
 4. https://www.statology.org/kendalls-tau/
-5. 
+5. https://towardsdatascience.com/breaking-down-mean-average-precision-map-ae462f623a52
+6. https://web.stanford.edu/class/cs276/handouts/EvaluationNew-handout-1-per.pdf

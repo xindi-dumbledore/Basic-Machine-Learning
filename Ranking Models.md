@@ -1,4 +1,4 @@
-#information-retrieval
+#information-retrieval #LTR 
 
 The usage of ranking models is mostly in **sorting documents by relevance to find contents of interest with respect to a query.**
 
@@ -20,12 +20,13 @@ There are two types of scoring models in general:
 	- Limitation: we need true relevance score for each document, which is sometimes not available
 	- Example: Subset Ranking and MSE loss
 - Pairwise method
+	- Predicting relative ordering, closer to nature of ranking comparing to pointwise
 	- For each pair of element $x_i = (q, d_i)$ and $x_j = (q, d_j)$, if $y_i > y_j$, does $s_i > s_j$? i.e. relative preference
 	- The problem is transformed into a binary classification problem
 	- Example
-		- [[RankNet]], Binary Cross Entropy Loss (still need some relevancy score for each document)
+		- [[RankNet]], Binary Cross Entropy Loss on each pair of documents (still need some relevancy score for each document)
 		- [[LambdaRank]], directly obtain gradients of an implicit loss function. Documents with high rank would have bigger gradients.
-		- [[LambdaMART]], gradient boosted LambdaRank
+		- [[LambdaMART]], LambdaRank + MART (Multiple Additive Regression Trees),  gradient boosted LambdaRank
 - Listwise method
 	- Take the whole list of element, we want the predicted ranking and actual ranking as close as possible
 	- The most direct approach: we are directly maximizing some ranking evaluation metric ([[Learning to Rank Evaluation Measures]])
@@ -33,7 +34,7 @@ There are two types of scoring models in general:
 		- [[SoftRank]]
 			- predict a smoothened probabilistic score $s \sim N(f(x), \sigma^2)$. Then we can compute probability distributions for the ranks of each document. SoftNDCG which is a smooth function over NDCG is the loss function
 		- [[ListNet]]
-			consider each ranked list corresponds to a permutation, and define a loss over space of permutations.
+			- consider each ranked list corresponds to a permutation, and define a loss over space of permutations.
 		- [[LambdaLoss]]
 			- A mixture model where the ranked list $\pi$ is treated as a hidden variable. Loss is defined as the negative log likelihood.
 			- Generalized framework for all other listwise methods
@@ -41,3 +42,4 @@ There are two types of scoring models in general:
 ## Reference
 1. https://towardsdatascience.com/learning-to-rank-a-complete-guide-to-ranking-using-machine-learning-4c9688d370d4
 2. https://embracingtherandom.com/machine-learning/tensorflow/ranking/deep-learning/learning-to-rank-part-2/#converting-scores-and-relevance-labels-into-probability-distributions
+3. https://www.quora.com/What-is-the-intuitive-explanation-of-Learning-to-Rank-and-algorithms-like-RankNet-LambdaRank-and-LambdaMART-In-what-types-of-data-variables-can-these-techniques-be-used-What-are-their-strengths-and-limitations/answer/Nikhil-Dandekar
