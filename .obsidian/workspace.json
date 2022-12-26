@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Support Vectors Machine (SVM).md",
+                "file": "Ranking Models.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "How to deal with overfitting problem.md",
+                "file": "Support Vectors Machine (SVM).md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,17 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dca90ac7dad21149",
+  "active": "080ef3668628be0f",
   "lastOpenFiles": [
-    "Ranking Models.md",
-    "How to deal with overfitting problem.md",
-    "Support Vectors Machine (SVM).md",
-    "Gradient Descent with Momentum.md",
-    "Exponentially Weighted Moving Averages.md",
-    "RMSprop.md",
     "Naive Bayes Classifier.md",
-    "Model Selection.md",
-    "Dropout.md",
-    "Regularization.md"
+    "Degenerate Feedback Loops.md",
+    "Counterfactual Learning to Rank.md",
+    "Logistic Regression.md",
+    "Ranking Models.md",
+    "Loss Function Glossary.md",
+    "LambdaRank.md",
+    "ListNet.md",
+    "Position Bias in Learning to Rank and Recommender Systems.md",
+    "Learning to Rank Evaluation Measures.md"
   ]
 }

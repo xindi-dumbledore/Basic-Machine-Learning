@@ -14,9 +14,11 @@ A natural idea is that we find the decision boundary that generates the maximum 
 ![[Pasted image 20221226101502.png]]
 ### Soft Margin Classifier
 To deal with the problem of maximum margin classifier, we want to build a soft margin classifier, which focuses on two objectives:
-- Maximize the distance between the decision boundary and support vectors (large margin)
-- Maximize the number of points that are correctly classified by the decision boundary
-
+- Maximize the distance between the decision boundary and support vectors (maximum margin) $$\max \frac{1}{||w||} = \min \frac{1}{2}||w||^2$$
+- Maximize the number of points that are correctly classified by the decision boundary: Hinge Loss $$\sum_{j=1}^m \max(0, 1 - t_j y_j)$$, where $t_j = w^T x_j$.
+- Combination loss function $$C\sum_{j=1}^m max(0, 1-t_jy_j) + \frac{1}{2}||w||^2$$
+	- Large C, lower bias, high variance
+	- Small C, higher bias, low variance
 ### Kernel Trick
 The above discussion is on linearly separable dataset, but that is usually not the case. On these dataset, we want to transform the data into high-dimensional space (by adding more features such as polynomials), where it will become linearly separable. Directly mapping is very costly, but luckily we have the kernel trick to the rescue!
 
@@ -28,3 +30,4 @@ The observations on the edge and within the s#oft margin are called support vect
 1. https://towardsdatascience.com/machine-learning-algorithms-from-start-to-finish-in-python-svm-d9ff9b48fd1
 2. Jure Leskovec: https://www.youtube.com/watch?v=8xbnLHn4jjQ
 3. https://stats.stackexchange.com/questions/74499/what-is-the-loss-function-of-hard-margin-svm
+2. https://programmathically.com/what-is-a-support-vector/
