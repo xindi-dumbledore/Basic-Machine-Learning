@@ -15,7 +15,9 @@ A natural idea is that we find the decision boundary that generates the maximum 
 ### Soft Margin Classifier
 To deal with the problem of maximum margin classifier, we want to build a soft margin classifier, which focuses on two objectives:
 - Maximize the distance between the decision boundary and support vectors (maximum margin) $$\max \frac{1}{||w||} = \min \frac{1}{2}||w||^2$$
-- Maximize the number of points that are correctly classified by the decision boundary: Hinge Loss $$\sum_{j=1}^m \max(0, 1 - t_j y_j)$$, where $t_j = w^T x_j$.
+- Maximize the number of points that are correctly classified by the decision boundary:
+	- Add a 
+- one option is the Hinge Loss $$\sum_{j=1}^m \max(0, 1 - t_j y_j)$$, where $t_j = w^T x_j$.
 - Combination loss function $$C\sum_{j=1}^m max(0, 1-t_jy_j) + \frac{1}{2}||w||^2$$
 	- Large C, lower bias, high variance
 	- Small C, higher bias, low variance
