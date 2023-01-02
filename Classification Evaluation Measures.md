@@ -13,6 +13,7 @@ It is biased when the class is imbalance
 4. Recall (Sensitivity, True Positive Rate): what percentage of actual positives are predicted as positives $$\frac{TP}{P} = \frac{TP}{TP + FN}$$
 5. Specificity (True Negative Rate) $$\frac{TN}{N}$$
 6. False Positive Rate: what percentage of actual negatives are predicted as positives $$\frac{FP}{N}$$
+Note: Precision, Recall and F1 are asymmetric metrics, which means that their values depending on which class is considered the positive class
 ### Combination of Basic Measures
 1. F1 Score: Harmonic mean of precision and recall, range from 0 (bad) to 1(good) $$2\times \frac{Precision * Recall}{Precision + Recall}$$
 2. Youden's J index: range from 0(bad) to 1(good) $$Sensitivity + Specificity - 1$$

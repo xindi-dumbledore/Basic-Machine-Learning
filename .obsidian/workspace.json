@@ -32,6 +32,114 @@
             }
           },
           {
+            "id": "e92c2976ec38de0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Handling the Lack of Labels.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "81570cfcc769ac7a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Augmentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e98e5321a911281a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stacking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd138815953dce35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Model Calibration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd335e3c8f07c372",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Degenerate Feedback Loops.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f20255c84b21416",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Distribution Shifts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8966fa7b7ffa142e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Support Vectors Machine (SVM).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee2fa18d0165122b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bagging.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa936f20646783fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Classification Evaluation Measures.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "96678ff6c8ade9f9",
             "type": "leaf",
             "state": {
@@ -56,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -183,17 +291,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "080ef3668628be0f",
+  "active": "8966fa7b7ffa142e",
   "lastOpenFiles": [
-    "Naive Bayes Classifier.md",
+    "Bandits.md",
+    "Data Distribution Shifts.md",
     "Degenerate Feedback Loops.md",
-    "Counterfactual Learning to Rank.md",
-    "Logistic Regression.md",
-    "Ranking Models.md",
-    "Loss Function Glossary.md",
-    "LambdaRank.md",
-    "ListNet.md",
-    "Position Bias in Learning to Rank and Recommender Systems.md",
-    "Learning to Rank Evaluation Measures.md"
+    "Model Compression.md",
+    "Model Calibration.md",
+    "pngs/simpson's paradox 1.png",
+    "pngs/simpson's paradox 2.png",
+    "Simpson's Paradox.md",
+    "Stacking.md",
+    "Ensemble Modeling.md"
   ]
 }

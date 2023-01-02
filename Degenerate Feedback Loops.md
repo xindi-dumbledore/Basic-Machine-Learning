@@ -1,5 +1,7 @@
 #LTR #designing-ml-systems #recommender-systems
 
+p.g. 233 of *[[Designing Machine Learning Systems]]*
+
 A degenerate feedback loop can happen when the predictions themselves influence the feedback, which, in turn, influences the next iteration of the model.
 
 Degenerate Feedback Loops are common in ranking and recommender systems. **Items ranked high by the system are shown first to users, and users tend to click on them more, which makes the system more confident that these recommendations are good.**

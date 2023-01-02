@@ -11,7 +11,7 @@ SVM tries to fit the widest possible hyperplane (decision boundary)  to separate
 
 ### Why not maximum margin classifier?
 A natural idea is that we find the decision boundary that generates the maximum margin possible. However, this is **very sensitive to outliers.** Imagine one instance of class A is very close to class B. Using maximum margin classifier, we will get a decision boundary very close to class B because of that outlier.
-![[Pasted image 20221226101502.png]]
+![[maximum margin classifier problem.png]]
 ### Soft Margin Classifier
 To deal with the problem of maximum margin classifier, we want to build a soft margin classifier, which focuses on two objectives:
 - Maximize the distance between the decision boundary and support vectors (maximum margin) $$\max \frac{1}{||w||} = \min \frac{1}{2}||w||^2$$
