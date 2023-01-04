@@ -13,7 +13,7 @@ RankNet model the target probabilities between any 2 documents ($d_i$ and $d_j$)
 The cost function for RankNet aims to minimize the number of inversions in ranking. Here an inversion means an incorrect order among a pair of results, i.e. when we rank a lower rated result above a higher rated result in a ranked list.
 
 ### Model Structure
-$x_i$ and $x_j$ as feature vectors for $d_i$ and $d_j$. We pass the $x_i$ and $x_j$ to the same neural network to get two outputs $o_i$ and $o_j$. $\hat{P}_{ij}$ is then calculated by applying sigmoid on $o_i - o_j$. Then the loss is the cross entropy loss ([[Loss Function Glossary#Cross Entropy]]) between $\hat{P}_{ij}$ and $P_{ij}$.
+$x_i$ and $x_j$ as feature vectors for $d_i$ and $d_j$. We pass the $x_i$ and $x_j$ to the same neural network to get two outputs $o_i$ and $o_j$. $\hat{P}_{ij}$ is then calculated by applying sigmoid on $o_i - o_j$. Then the loss is the cross entropy loss ([[Common Loss Function Glossary#Cross Entropy]]) between $\hat{P}_{ij}$ and $P_{ij}$.
 
 ![[ranknet.png]]
 ### Training Details

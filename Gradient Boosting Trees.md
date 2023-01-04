@@ -17,7 +17,7 @@ The "gradient" in gradient boosting can be viewed as this:
 	- Update the prediction function, where $\nu$ is the learning rate: $F_m(x) = F_{m-1}(x) + \nu \sum_{j =1}^{J_m} \gamma_{jm} I(x\in R_{jm})$
 
 ## Gradient Boosting for Regression
-- $L(y_i, F(x)) = \frac{1}{2}(y_i - F(x))^2$, i.e. in the same fashion of MSE
+- $L(y_i, F(x)) = \frac{1}{2}(y_i - F(x_i))^2$, i.e. in the same fashion of MSE
 - $F_0(x) = \frac{1}{n}\sum_i^n y_i$, i.e. the mean of $y_i$
 - $r_{im} = -[y_i - F(x_i)]_{F(x) = F_{m-1}(x)}$, i.e. residual calculated with last step prediction
 - Fit a regression tree to the $r_{im}$ values and create terminal regions (i.e. leaves) $R_{jm}$, for $j = 1 ... J_m$ 
@@ -25,8 +25,8 @@ The "gradient" in gradient boosting can be viewed as this:
 - $F_m(x) = F_{m-1}(x) + \nu \sum_{j =1}^{J_m} \gamma_{jm} I(x\in R_{jm})$, i.e. update the prediction function by adding all the output values for each leaf, and multiply by the learning rate $\nu$
 
 ## Gradient Boosting for Classification
-- $L(y_i, F(x)) = y_i \log (p) + (1-y_i) \log(1-p) = -y_i \log(odds) + \log(1+e^{log(odds))}$, i.e. in the same fashion of logistic regression loss function (i.e. binary cross entropy)
-- $F_0(x) = \log(odds) = \log(p/1-p)$, i.e. the mean of $y_i$
+- $L(y_i, F(x)) = y_i \log (F(x_i)) + (1-y_i) \log(1-(F(x_i))) = -y_i \log(odds) + \log(1+e^{log(odds)})$, i.e. in the same fashion of logistic regression loss function (i.e. binary cross entropy)
+- $F_0(x) = \log(odds) = \log(\frac{p}{1-p})$, i.e. the mean of $y_i$
 - $r_{im} = -[y_i - p]_{F(x) = F_{m-1}(x)}$, i.e. residual calculated with last step prediction
 - Fit a regression tree to the $r_{im}$ values and create terminal regions (i.e. leaves) $R_{jm}$, for $j = 1 ... J_m$ 
 - Calculate output values for each leaf: For $j = 1 ...J_m$ (i.e. each leaf), $\gamma_{jm} = argmin_{\gamma} \sum_{x_i\in R_{jm}}^n L(y_i, F_{(m-1)}(x_i) + \gamma)$

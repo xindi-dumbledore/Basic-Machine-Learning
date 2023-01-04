@@ -1,7 +1,7 @@
 #LTR 
 
 ## High Level Summary
-LambdaRank is a pairwise [[Ranking Models]] built on [[RankNet]]. LambdaRank defined the gradient directly (without defining its corresponding loss function) by taking ranking loss into consideration: scale the RankeNet's gradients by the size of the change in NDCG if document $i$ is swapped with $j$.
+LambdaRank is a pairwise [[Ranking Models]] built on [[RankNet]]. LambdaRank defined the gradient directly (without defining its corresponding loss function) by taking ranking loss into consideration: scale the RankNet's gradients by the size of the change in NDCG if document $i$ is swapped with $j$.
 
 ## Detail
 $$ \frac{\partial C^{LambdaRank}_{ij}}{\partial W_k} = \frac{\partial C^{RankNet}_{ij}}{\partial W_k}|\Delta\text{NDCG}_{ij}|$$

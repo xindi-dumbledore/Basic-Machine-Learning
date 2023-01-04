@@ -2,9 +2,11 @@
 ## L-2 regularization
 add $\frac{\lambda}{2m} ||w||_2 ^ 2 = \frac{\lambda}{2m}\sum_{i=1}^n w_n^2$ to the loss function (Frobenius norm for neural network, i.e.)
 - alternative name: weight decay
+- if linear model, it's called Ridge Regression
 
 ## L-1 regularization
 - add $\frac{\lambda}{2m} ||w||_1 ^ 2 = \frac{\lambda}{2m}\sum_{i=1}^n|w_n|$ to the loss function
+- If linear model, it's called Lasso Regression
 - $w$ will be sparse, in a sense doing feature selection
 - L-1 regularization gives a sparse solution (weights will be dragged to 0)
 	- why?

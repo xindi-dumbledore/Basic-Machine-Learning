@@ -14,4 +14,4 @@ Problem
 
 
 ### Word Embeddings
-word2vec
+word2vec #todo

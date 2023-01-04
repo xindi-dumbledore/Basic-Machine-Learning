@@ -8,103 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dca90ac7dad21149",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ranking Models.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "080ef3668628be0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Support Vectors Machine (SVM).md",
+                "file": "Common Loss Function Glossary.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e92c2976ec38de0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Handling the Lack of Labels.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81570cfcc769ac7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Augmentation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e98e5321a911281a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stacking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd138815953dce35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Model Calibration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd335e3c8f07c372",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Degenerate Feedback Loops.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f20255c84b21416",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Distribution Shifts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8966fa7b7ffa142e",
+            "id": "2a27b489c33e7f51",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -116,19 +32,7 @@
             }
           },
           {
-            "id": "ee2fa18d0165122b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bagging.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aa936f20646783fa",
+            "id": "f40d42d42839463a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -140,31 +44,55 @@
             }
           },
           {
-            "id": "96678ff6c8ade9f9",
+            "id": "4304ee12d597bc29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Logistic Regression.md",
+                "file": "Feature Selection.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "09f042e6b2c413b4",
+            "id": "e5fbb082a73a314f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Loss Function Glossary.md",
+                "file": "Model Selection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8966fa7b7ffa142e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gradient Boosting Trees.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f519a10eaf32ed87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Odds and Odds Ratio.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -214,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 200
   },
   "right": {
     "id": "1788f0cf19b66ed9",
@@ -230,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Support Vectors Machine (SVM).md",
+                "file": "Model Selection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -247,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Support Vectors Machine (SVM).md",
+                "file": "Model Selection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -270,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Support Vectors Machine (SVM).md"
+                "file": "Model Selection.md"
               }
             }
           }
@@ -291,17 +219,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8966fa7b7ffa142e",
+  "active": "e5fbb082a73a314f",
   "lastOpenFiles": [
-    "Bandits.md",
-    "Data Distribution Shifts.md",
-    "Degenerate Feedback Loops.md",
-    "Model Compression.md",
-    "Model Calibration.md",
-    "pngs/simpson's paradox 1.png",
-    "pngs/simpson's paradox 2.png",
-    "Simpson's Paradox.md",
-    "Stacking.md",
-    "Ensemble Modeling.md"
+    "Untitled.md",
+    "Feature Selection.md",
+    "Classification Evaluation Measures.md",
+    "Common Activation Function Glossary.md",
+    "activation function.png",
+    "Common Loss Function Glossary.md",
+    "Linear Regression.md",
+    "Support Vectors Machine (SVM).md",
+    "Speed Up Training.md",
+    "Odds and Odds Ratio.md"
   ]
 }

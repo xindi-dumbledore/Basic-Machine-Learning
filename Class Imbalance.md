@@ -15,7 +15,7 @@ p.g. 104 of *[[Designing Machine Learning Systems]]*
 	- precision, recall and F1 are asymmetric metrics, which means that their values depending on which class is considered the positive class, so calculate for both class
 - Resampling
 	- Undersampling majority class
-		- e.g. Tomek links, find pairs of samples from opposite classes that are close in proximity and remove the samples of the majority class in each pair
+		- e.g. [[Tomek links]], find pairs of samples from opposite classes that are close in proximity and remove the samples of the majority class in each pair
 		- might lose important data from removing data
 	- Oversampling for minority class
 		- e.g. SMOTE (synthetic minority oversampling technique), synthesizes novel examples of the minority class through sampling convex combinations of existing data points within the minority class

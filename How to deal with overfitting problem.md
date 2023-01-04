@@ -1,10 +1,14 @@
 #trick #overfitting 
 
 - The basic idea is if we don't have enough data, don't make model to complex (make it dumb!)
+- Use simple models
 - Get more training data
 - Always have validation set to evaluate performance and do hyperparameter tuning
 - [[Regularization]]
 - [[Dropout]]
+- [[Ensemble Modeling]]
+- Feature selection
+- Dimensionality reduction
 - Others
 	- Data augmentation: i.e. get more training data
 		- e.g. in CV flipping image, random distortions

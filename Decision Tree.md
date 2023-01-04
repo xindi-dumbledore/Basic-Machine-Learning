@@ -1,6 +1,6 @@
 #tree 
 - Training procedure
-	- Find the feature (and split criteria for continuous variable) that generate the best split of the data
+	- Find the feature (or split criteria for continuous variable) that generate the best split of the data
 		- Impurity functions: evaluate "best" split
 			- achieve a maximum at the uniform distribution
 			- achieve a minimum when $p_i=1$
