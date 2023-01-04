@@ -53,3 +53,4 @@ The observations on the edge and within the soft margin are called support vecto
 3. https://stats.stackexchange.com/questions/74499/what-is-the-loss-function-of-hard-margin-svm
 4. https://programmathically.com/what-is-a-support-vector/
 5. https://illustrated-machine-learning.github.io/pages/machine-learning/linear-algorithms.html#support-vector-machines
+6. https://programmathically.com/understanding-hinge-loss-and-the-svm-cost-function/
