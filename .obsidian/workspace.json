@@ -13,86 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common Loss Function Glossary.md",
+                "file": "Batch, Stochastic and Mini-batch Gradient Descent.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2a27b489c33e7f51",
+            "id": "5d4fb0a1167ecef6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Support Vectors Machine (SVM).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f40d42d42839463a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classification Evaluation Measures.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4304ee12d597bc29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Feature Selection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5fbb082a73a314f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLP/Attention and Self Attention.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8966fa7b7ffa142e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gradient Boosting Trees.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f519a10eaf32ed87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Odds and Odds Ratio.md",
+                "file": "NLP/BERT.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,8 +61,8 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
+                "matchingCase": true,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -158,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/Attention and Self Attention.md",
+                "file": "Batch, Stochastic and Mini-batch Gradient Descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/Attention and Self Attention.md",
+                "file": "Batch, Stochastic and Mini-batch Gradient Descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLP/Attention and Self Attention.md"
+                "file": "Batch, Stochastic and Mini-batch Gradient Descent.md"
               }
             }
           }
@@ -219,17 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5fbb082a73a314f",
+  "active": "080ef3668628be0f",
   "lastOpenFiles": [
-    "Perplexity.md",
-    "NLP/Language Modeling.md",
-    "NLP/Recurrent Neural Networks (RNN).md",
-    "NLP/Transformer.md",
-    "NLP/GPT.md",
+    "Gradient Descent with Momentum.md",
+    "Speed Up Training.md",
     "NLP/BERT.md",
+    "Batch, Stochastic and Mini-batch Gradient Descent.md",
+    "NLP/Recurrent Neural Networks (RNN).md",
+    "Adam Optimizer.md",
+    "NLP/Transformer.md",
     "NLP/Attention and Self Attention.md",
-    "Support Vectors Machine (SVM).md",
-    "pngs/feature selection techniques.png",
-    "Pasted image 20230103170529.png"
+    "NLP/LSTM.md",
+    "Layer Normalization.md"
   ]
 }

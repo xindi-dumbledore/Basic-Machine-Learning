@@ -26,7 +26,7 @@ To describe it in a more mathy way:
 ## Top2Vec
 ### Process
 1. Generate embedding vectors for documents and words
-	- use doc2vec, which jointly embed document and word vectors together
+	- use [[Doc2vec]], which jointly embed document and word vectors together
 2. Perform dimensionality reduction on the vectors using algorithms such as [[UMAP]]
 3. Cluster the vectors using a clustering algorithm such as [[DBSCAN#HDBSCAN]]
 4. Assign topics to each cluster

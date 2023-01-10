@@ -8,6 +8,12 @@ Random forest is an extended bagging method which combines the output of multipl
 	- **we end up with trees that are not only trained on different sets of data (thanks to bagging) but also use different features to make decisions.**
 - To make prediction, we can take the majority votes (classification) or average (regression) on the prediction of each tree
 ![[Random_Forest_web.png]]![[The_Random_In_Random_Forest_web.png]]
+- Parameters in Random Forests
+	- Number of trees
+	- Max depth of the tress
+	- Min number of data for each leaf
+	- Maximum number of features Random Forest is allowed to try in individual tree.
+- Drawback of random forest
 ## References
 1. https://towardsdatascience.com/understanding-random-forest-58381e0602d2
 2. https://en.wikipedia.org/wiki/Random_forest#Preliminaries:_decision_tree_learning

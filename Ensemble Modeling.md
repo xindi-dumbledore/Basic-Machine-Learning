@@ -17,3 +17,13 @@ Ensemble learning is a learning technique in which multiple individual models ar
 - If all classifiers are perfectly correlated—all three of them make the same prediction for every email—the ensemble will have the same accuracy as each individual classifier. 
 - **When creating an ensemble, the less correlation there is among base learners, the better the ensemble will be.**
 - It’s common to choose very different types of models for an ensemble. For example, you might create an ensemble that consists of one transformer model, one recurrent neural network, and one gradient-boosted tree.
+## Pros and Cons of Ensemble Models
+- Pros
+	- Generally have higher performance
+	- Prevents overfitting
+		- With a _bagging_ approach, each model should be tuned to overfit. Model independence is exploited because bagging is a variance reduction technique. Predictions can be softened for improved stability. These models are run in parallel and averaged. 
+		- With _boosting_, models are used sequentially and wrong classifications from prior runs are given more weight. Boosting is a bias reduction technique. 
+		- Stacking can be done with random forests. Stacking improves accuracy while keeping variance _and_ bias low.
+- Cons
+	- Can be more difficult to interpret
+	- Ensembles cost more to create, train and deploy

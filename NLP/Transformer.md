@@ -22,7 +22,7 @@ The Transformer Encoder-Decoder
 In transformer, we don't simply set key, query and value to all be the input embeddings. Rather, we have learnable matrices: key matrix, query matrix and value matrix to obtain the key, query and value.
 $$k_i = Kx_i, q_i = Qx_i, v_i = Vx_i$$
 #### Matrix Representation
-Let $X = [x_1;...;x_T] \in R^{T\times d}$ be the concatenation of input vectors.
+Let $X = [x_1;...;x_T] \in R^{T\times d}$ be the concatenation of input vectors, where $T$ is the number of tokens and $d$ is the embedding size
 - Query x Key is $XQ(XK)^T = XQK^TX^T$
 - Take softmax $\text{softmax}(XQK^TX^T)$
 - Calculate values $\text{softmax}(XQK^TX^T)XV$
