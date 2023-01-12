@@ -13,7 +13,7 @@ And a system that does this is called a Language Model.
 		- [[Recurrent Neural Networks (RNN)]]
 			- [[LSTM]]
 			- [[GRU]]
-		- [[Transformers]]
+		- [[Transformer]]
 - Evaluating Language Models: [[Perplexity]]
 - Why we care about Language Modeling
 	- Language modeling is a benchmark task that helps us measure our progress on language understanding
