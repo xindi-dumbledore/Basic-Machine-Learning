@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Batch, Stochastic and Mini-batch Gradient Descent.md",
+                "file": "Boosting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "273b4a95f4820c83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ListNet.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Batch, Stochastic and Mini-batch Gradient Descent.md",
+                "file": "Boosting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Batch, Stochastic and Mini-batch Gradient Descent.md",
+                "file": "Boosting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Batch, Stochastic and Mini-batch Gradient Descent.md"
+                "file": "Boosting.md"
               }
             }
           }
@@ -158,17 +170,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "080ef3668628be0f",
+  "active": "6679a13a0f2dead2",
   "lastOpenFiles": [
-    "Gradient Descent with Momentum.md",
-    "Speed Up Training.md",
-    "NLP/BERT.md",
-    "Batch, Stochastic and Mini-batch Gradient Descent.md",
-    "NLP/Recurrent Neural Networks (RNN).md",
-    "Adam Optimizer.md",
-    "NLP/Transformer.md",
-    "NLP/Attention and Self Attention.md",
-    "NLP/LSTM.md",
-    "Layer Normalization.md"
+    "Bias-Variance Tradeoff.md",
+    "Regularization.md",
+    "Ranking Models.md",
+    "ListNet.md",
+    "Dropout.md",
+    "Vanishing and Exploding Gradients.md",
+    "Layer Normalization.md",
+    "Batch Normalization.md",
+    "Linear Regression.md",
+    "Batch, Stochastic and Mini-batch Gradient Descent.md"
   ]
 }
