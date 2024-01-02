@@ -13,37 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boosting.md",
+                "file": "NLP/Transformer.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "273b4a95f4820c83",
+            "id": "b5ec9ecde7cf3311",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ListNet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d4fb0a1167ecef6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NLP/BERT.md",
+                "file": "Graph Machine Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "range",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -93,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1788f0cf19b66ed9",
@@ -109,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boosting.md",
+                "file": "NLP/Transformer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Boosting.md",
+                "file": "NLP/Transformer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Boosting.md"
+                "file": "NLP/Transformer.md"
               }
             }
           }
@@ -172,15 +162,15 @@
   },
   "active": "6679a13a0f2dead2",
   "lastOpenFiles": [
-    "Bias-Variance Tradeoff.md",
-    "Regularization.md",
+    "NLP/Transformer.md",
+    "Degenerate Feedback Loops.md",
     "Ranking Models.md",
+    "RankNet.md",
     "ListNet.md",
-    "Dropout.md",
-    "Vanishing and Exploding Gradients.md",
-    "Layer Normalization.md",
-    "Batch Normalization.md",
-    "Linear Regression.md",
-    "Batch, Stochastic and Mini-batch Gradient Descent.md"
+    "Boosting.md",
+    "Learning to Rank Evaluation Measures.md",
+    "Counterfactual Learning to Rank.md",
+    "Machine Learning System Design.md",
+    "NLP/Topic Models.md"
   ]
 }
