@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4437fb46f760313a",
+        "id": "a4f9b0bb43c4c6d8",
         "type": "tabs",
         "children": [
           {
-            "id": "080ef3668628be0f",
+            "id": "52089697fd4569d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Transformer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5ec9ecde7cf3311",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Graph Machine Learning.md",
+                "file": "NLP/Language Modeling.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "range",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1788f0cf19b66ed9",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NLP/Transformer.md",
+                "file": "NLP/Language Modeling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NLP/Transformer.md",
+                "file": "NLP/Language Modeling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NLP/Transformer.md"
+                "file": "NLP/Language Modeling.md"
               }
             }
           }
@@ -160,8 +146,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6679a13a0f2dead2",
+  "active": "52089697fd4569d4",
   "lastOpenFiles": [
+    "Linear Regression.md",
     "NLP/Transformer.md",
     "Degenerate Feedback Loops.md",
     "Ranking Models.md",
@@ -170,7 +157,6 @@
     "Boosting.md",
     "Learning to Rank Evaluation Measures.md",
     "Counterfactual Learning to Rank.md",
-    "Machine Learning System Design.md",
-    "NLP/Topic Models.md"
+    "Machine Learning System Design.md"
   ]
 }
