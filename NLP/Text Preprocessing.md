@@ -1,3 +1,5 @@
+#preprocess
+
 - Remove stop words
 - [[Tokenization]]
 	- Separating a piece of text into smaller units, most common example is WhiteSpaceTokenizer

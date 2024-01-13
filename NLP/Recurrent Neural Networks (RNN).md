@@ -1,3 +1,4 @@
+#NLP 
 ## One Line Summary
 RNN is a family of neural networks that take sequential input of any length, apply the same weights on each step, and can optionally produce output on each step. RNNs are a great way to build a [[Language Modeling]]. Other more advanced RNN architectures include [[LSTM]] and [[GRU]]
 

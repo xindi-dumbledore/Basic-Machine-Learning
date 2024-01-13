@@ -1,3 +1,4 @@
+#LLM #Optimization
 ### What is the problem
 - Assumption: Assume we have a model with 1 billion (1B) parameters. Each LLM parameter is in 32-bit full precision.
 - In 32-bit full precision, 1 parameter = 4 bytes

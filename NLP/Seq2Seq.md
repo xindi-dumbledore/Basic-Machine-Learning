@@ -1,3 +1,4 @@
+#NLP 
 ## One Line Summary
 Seq2Seq is a neural network architecture which take a sequence as input and generate a sequence as output. It involves two [[Recurrent Neural Networks (RNN)]], and is also called encoder-decoder architecture.
 

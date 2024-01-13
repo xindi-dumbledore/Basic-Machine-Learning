@@ -1,3 +1,4 @@
+#NLP #Transformer #LLM 
 ## High Level Summary
 Generative Pretrained Transformer is a pretrained decoder part of a [[Transformer]].
 

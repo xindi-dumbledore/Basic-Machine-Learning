@@ -1,4 +1,4 @@
-#LLM #LLMPretraining 
+#LLM #pretrain 
 LLM pre-training needs balancing between compute budget, model performance, dataset size and model size.
 ## Model Performance
  Compute budget vs performance: power law(?)

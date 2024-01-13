@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLM Optimization Techniques.md",
+                "file": "NLP/LSTM.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LLM Optimization Techniques.md",
+                "file": "NLP/LSTM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LLM Optimization Techniques.md",
+                "file": "NLP/LSTM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLM Optimization Techniques.md"
+                "file": "NLP/LSTM.md"
               }
             }
           }
@@ -156,15 +156,36 @@
   },
   "active": "4803f30515466241",
   "lastOpenFiles": [
-    "Screenshot 2024-01-03 at 4.48.27 PM.png",
-    "NLP/LLM Computational Challenges.md",
-    "LLM Optimization Techniques.md",
-    "Reinforcement Learning from Human Feedback (RLHF).md",
+    "NLP/Name Entity Recognition.md",
+    "NLP/Parameter Efficient Fine-tuning (PEFT).md",
+    "NLP/Prompt Engineering Guidelines.md",
+    "NLP/Prompt tuning.md",
+    "NLP/Recurrent Neural Networks (RNN).md",
+    "NLP/ROUGE Score.md",
+    "NLP/Sagemaker Clarity.md",
+    "NLP/SentencePiece.md",
+    "NLP/Seq2Seq.md",
+    "NLP/T5.md",
+    "NLP/Text Preprocessing.md",
+    "NLP/TF-IDF.md",
+    "NLP/Tokenization.md",
+    "NLP/Transformer.md",
+    "NLP/Transformer Architecture vs Use Cases vs Pre-training Objectives.md",
+    "NLP/Vocabulary & Feature Extraction.md",
+    "NLP/LLM Model Partitioning.md",
+    "NLP/LSTM.md",
+    "NLP/LLM Scaling Choices for Pre-Training.md",
+    "NLP/LLM Response Generation Configuration  - top-k and top-p Sampling.md",
+    "NLP/LLM Response Generation Configuration - Max New Tokens.md",
+    "NLP/LLM Response Generation Configuration.md",
     "NLP/LLM Pre-training.md",
     "NLP/LLM Model Size.md",
-    "NLP/BERT.md",
-    "NLP/Attention and Self Attention.md",
-    "Constitutional AI.md",
+    "NLP/LLM Fine-tuning.md",
+    "NLP/LLM Fine Tuning Data Preparation.md",
+    "pngs/pipeline_parallelism.png",
+    "pngs/prompt_engineering_iterations.png",
+    "pngs/intra-layer_model_parallelism.png",
+    "Screenshot 2024-01-03 at 4.48.27 PM.png",
     "Screenshot 2024-01-03 at 3.55.51 PM.png",
     "Screenshot 2024-01-03 at 3.55.25 PM.png",
     "Screenshot 2024-01-03 at 3.55.13 PM.png",
@@ -172,21 +193,6 @@
     "Screenshot 2024-01-03 at 3.54.13 PM.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Reward Hacking.md",
-    "Screenshot 2024-01-03 at 3.41.29 PM.png",
-    "Screenshot 2024-01-03 at 3.40.12 PM.png",
-    "Screenshot 2024-01-03 at 3.30.01 PM.png",
-    "Screenshot 2024-01-03 at 3.29.44 PM.png",
-    "Screenshot 2024-01-03 at 3.27.26 PM.png",
-    "NLP/Prompt tuning.md",
-    "BLEU Score.md",
-    "NLP/Fine-tuning LLMs with instruction.md",
-    "LoRA (Low-rank adaptation of Large Language Models).md",
-    "NLP/Parameter Efficient Fine-tuning (PEFT).md",
-    "NLP/Catastrophic Forgetting.md",
-    "NLP/LLM Evaluation.md",
-    "NLP/ROUGE Score.md",
-    "NLP/LLM Fine-tuning.md",
-    "NLP/Language Modeling.md"
+    "Screenshot 2024-01-03 at 3.41.29 PM.png"
   ]
 }

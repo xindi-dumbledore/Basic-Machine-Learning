@@ -1,4 +1,4 @@
-#LLM 
+#LLM #evaluate 
 LLM Evaluation is tricky, because language is tricky. Two sentences can mean the same thing but looks drastically different; Seemingly very similar sentences can have opposite meaning.
 ```
 Mike really loves drinking tea = Mike adores sipping tea.
