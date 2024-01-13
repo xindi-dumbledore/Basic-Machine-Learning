@@ -1,5 +1,4 @@
 #optimizer 
-
 ## What are they?
 Batch Gradient Descent calculate the gradient on the full dataset.
 

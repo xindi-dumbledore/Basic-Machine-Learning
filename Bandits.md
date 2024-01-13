@@ -1,4 +1,5 @@
-#designing-ml-systems 
+#designing-ml-systems #reinforcementLearning
+
 p.g. 287 of *[[Designing Machine Learning Systems]]*
 - Bandit algorithms originated in gambling. A casino has multiple slot machines with different payouts. A slot machine is also known as a one-armed bandit, hence the name. You don’t know which slot machine gives the highest payout. You can experiment over time to find out which slot machine is the best while maximizing your payout.
 - Multi-armed bandits are algorithms that allow you to balance between exploitation (choosing the slot machine that has paid the most in the past) and exploration (choosing other slot machines that may pay off even more).

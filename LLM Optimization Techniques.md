@@ -21,4 +21,4 @@ Reduce precision of model weights. Similar to [[LLM Computational Challenges#Qua
 	- Post-training
 - In practice, only a small percentage in LLMs are zero-weights so it might have low impact
 
-![[Screenshot 2024-01-03 at 4.48.27 PM.png]]
+![[llm_optimization_cheatsheet.png]]
