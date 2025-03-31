@@ -38,8 +38,6 @@ It's the same formula as DCG, just switching predicted relevancy score/ranking t
 $$IDCG_{@k} = \sum_{i = 1}^{k_{\text{ideal}}} \frac{G_i^{k_{\text{ideal}}}}{\log_2(i+1)}$$
 ### Normalized DCG (NDCG)
 $$NDCG_{@k} = \frac{DCG_{@k}}{IDCG_{@k}}$$
-
-
 Advantage: takes into account actual relevancy score (rather than 0/1 judgement) and ranking positions
 Limitation: doesn't penalize for bad documents in the result.
 
