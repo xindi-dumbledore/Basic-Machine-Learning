@@ -1,4 +1,4 @@
-#NLP #LLM 
+#NLP
 - Language Modeling is the task of predicting what word comes next, e.g. "The students opened their {books, laptops, exams, minds}"
 - Given a sequence of words $x^{(1)}, x^{(2)}, ..., x^{(t)}$, compute the probability distribution of the next word $x^{t+1}$, where $x^{(t+1)}$ can be any word in vocabulary $V = \{w_1, ..., w_{|v|}\}$
 $$P(x^{(t+1)} | x^{(t)}, ..., x^{(1)})$$

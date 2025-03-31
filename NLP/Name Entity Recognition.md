@@ -21,5 +21,3 @@
 - deep learning based NER
 - neural sequence models (RNNs or Transformers)
 - Finetune Large Language Models (BERT)
-
-add token level classification on top of the BERT output
