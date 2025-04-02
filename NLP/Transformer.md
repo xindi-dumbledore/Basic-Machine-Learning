@@ -13,7 +13,7 @@ The Transformer Encoder-Decoder
 	- Self attention will lose sequence order!: Position representation
 		- Method 1: Sinusoidal position representations
 		- Method 2: learn position representation from scratch
-	- No nonlinearities for deep learning! (it's just weighted averages): Add a feed-forward network to pos-process each output vector
+	- No nonlinearities for deep learning! (it's just weighted averages): Add a feed-forward network to post-process each output vector
 	- Need to ensure we don't "look at future" when predicting a sequence! : [[Attention and Self Attention#Self Attention in detail#Masking the Future in Self Attention]]
 ## Details
 ![[transformer_encoder.png]]
