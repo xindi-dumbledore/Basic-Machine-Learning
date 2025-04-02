@@ -1,20 +1,44 @@
 {
   "main": {
-    "id": "58d36308a488944c",
+    "id": "2bb62b5a49b618da",
     "type": "split",
     "children": [
       {
-        "id": "7a0f592fcbcffdbe",
+        "id": "0292e2ec0cea5cd7",
         "type": "tabs",
         "children": [
           {
-            "id": "2cc09e86ba214b10",
+            "id": "340577117990e6a7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ML System Examples/01. Visual Search System.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "01. Visual Search System"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3df73981209b7a9f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14c1d959f7148f0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML System Examples/03. YouTube Video Search.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03. YouTube Video Search"
             }
           }
         ]
@@ -23,15 +47,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5e36c2fade634b53",
+    "id": "2dcf2560a5d2603a",
     "type": "split",
     "children": [
       {
-        "id": "6b7b064b2a11db0a",
+        "id": "65cc7ed4afc55676",
         "type": "tabs",
         "children": [
           {
-            "id": "2b25e3eaae0eaa48",
+            "id": "6679a13a0f2dead2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,14 +68,14 @@
             }
           },
           {
-            "id": "587e6e5cf775f7c5",
+            "id": "6ee9a5692eeb8af5",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
+                "matchingCase": true,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -61,7 +85,17 @@
             }
           },
           {
-            "id": "69e6145be490c662",
+            "id": "d2fbae3e776b9cfc",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "122acdd8add2da03",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,22 +108,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 364.5
   },
   "right": {
-    "id": "10431f7b28c035cc",
+    "id": "1788f0cf19b66ed9",
     "type": "split",
     "children": [
       {
-        "id": "db8a28db65cd8da5",
+        "id": "e45a3c8abd7e8b17",
         "type": "tabs",
         "children": [
           {
-            "id": "c8025ac1519923d2",
+            "id": "4f114acf1a38afd2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ML System Examples/03. YouTube Video Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +134,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 03. YouTube Video Search"
             }
           },
           {
-            "id": "7948b735c908c115",
+            "id": "3cd659a851aaf1ee",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ML System Examples/03. YouTube Video Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 03. YouTube Video Search"
             }
           },
           {
-            "id": "3cf293546e003e79",
+            "id": "704ab45e4f0e766f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,17 +167,18 @@
             }
           },
           {
-            "id": "4cd5a47886d8ae80",
+            "id": "80d6e8447da470cb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "ML System Examples/03. YouTube Video Search.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 03. YouTube Video Search"
             }
           }
         ]
@@ -161,6 +198,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2cc09e86ba214b10",
-  "lastOpenFiles": []
+  "active": "14c1d959f7148f0c",
+  "lastOpenFiles": [
+    "Screenshot 2025-04-01 at 13.15.29.png",
+    "ML System Examples/01. Visual Search System.md",
+    "ML System Examples/03. YouTube Video Search.md",
+    "Deep Learning/Common Activation Function Glossary.md",
+    "Ranking/Learning to Rank Evaluation Measures.md",
+    "ML System Examples/08. Similar Listings on Vacation Rental Platforms.md",
+    "ML System Examples/07. Ad Click Prediction on Social Platforms.md",
+    "ML System Examples/06. Event Recommendation System.md",
+    "ML System Examples/05. Video Recommendation System.md",
+    "Basics/Common Loss Function Glossary.md",
+    "ML System Examples/02. Google Street View Blurring System.md",
+    "ML System Examples/09. People You May Know.md",
+    "ML System Examples/04. Harmful Content Detection.md",
+    "ML System Examples/10. Personalized News Feed.md",
+    "Information Retrieval and Recommendation/Position Bias in Ranking.md",
+    "Screenshot 2025-04-01 at 10.55.05.png",
+    "Information Retrieval and Recommendation/Vector space models.md",
+    "ML Design/Overview.md",
+    "ML Design",
+    "Designing Machine Learning Systems.md",
+    "Information Retrieval and Recommendation/Nearest Neighbor Search Algorithms.md",
+    "Screenshot 2025-03-31 at 14.11.12.png",
+    "Screenshot 2025-03-31 at 13.56.10.png",
+    "Screenshot 2025-03-31 at 13.54.33.png",
+    "Screenshot 2025-03-31 at 13.36.45.png",
+    "Screenshot 2025-03-31 at 13.27.30.png",
+    "Screenshot 2025-03-31 at 13.26.40.png",
+    "Batch Normalization.md",
+    "Bandits.md",
+    "pngs/llm_optimization_cheatsheet.png",
+    "pngs/constitutional_ai.png",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "pngs/reward_hacking_1.png",
+    "NLP/Chain-of-Thought Prompting 1.md",
+    "NLP/Simulated Annealing Algorithm for Hyperparameter Tuning 1.md",
+    "NLP/LangChain.md",
+    "NLP/LLM-powered applications 1.md",
+    "NLP/LangChain 1.md"
+  ]
 }
