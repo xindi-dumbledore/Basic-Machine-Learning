@@ -1,4 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./pngs/"
 }

@@ -14,10 +14,10 @@ Limitation: Precision@k and Recall@k only takes 0/1 judgement, also it doesn't t
 
 ## Average Precision(AP)
 AP is the sum of precision@k for different values of k divided by the total number of relevant items in the top k results. AP penalize models that are not able to rank relevant items high in the list.
-$$AP = \frac{1}{\text{total \# of relevant items}} \sum_{k=1}^n \text{Precision@k } \times \text{Relevance@k}$$
+$$AP@k = \frac{1}{\text{total \# of relevant items}} \sum_{k=1}^n \text{Precision@k } \times \text{Relevance@k}$$
 ``
 ## Mean Average Precision (MAP)
-Mean Average Precision (MAP) is simply AP over all queries.
+Mean Average Precision (MAP) is simply AP over all queries/users.
 
 ## Mean Reciprocal Rank (MRR)
 Average of the reciprocal ranks of "the first relevant item" over a set of queries Q
@@ -51,6 +51,10 @@ where $d_i$ is the rank difference between two list of the same item $i$, and $n
 Kendall's Tau is very similar to Spearman Rank Correlation, but is demonstrated to be more robust to errors. The calculation relies on number of concordant (C) and discordant (D) pairs. See [here](https://www.statology.org/kendalls-tau/) for a detailed calculation example.
 
 $$\tau = \frac{C-D}{C+D}$$
+## Diversity
+Probably only suitable for recommendation use-cases, diversity measure how dissimilar the items in a list are to each other. This metric is important for recommendation systems as users are more interested in diversified recommendations.
+
+To measure diversity, we calculate the average pairwise similarity (e.g. cosine similarity) between items in the list. A low average pairwise similarity score indicates the list is more diverse.
 
 ## Reference
 1. https://medium.com/@m_n_malaeb/recall-and-precision-at-k-for-recommender-systems-618483226c54
