@@ -44,7 +44,7 @@ Similar to Mallow's $C_p$, AIC is used to compare which model is better in situa
 $$AIC = -2 (\text{log likelihood}) + 2d$$
 ### Explained Sum of Square (ESS)
 $$ESS = \sum_i^n(\hat{y_i} - \bar{y})^2$$
-This is the exact thing of "variance" in [[Bias and Variance Tradeoff]] formula. Which measure the amount of variance in the model.
+This is the exact thing of "variance" in [[Bias-Variance Tradeoff]] formula. Which measure the amount of variance in the model.
 
 ## Reference
 1. https://www.statisticshowto.com/akaikes-information-criterion/
