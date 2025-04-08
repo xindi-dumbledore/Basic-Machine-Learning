@@ -9,22 +9,25 @@ Combine both MSE and MAE. For loss values less than delta, use MSE; for loss val
 
 $$L_{\delta}(y_i \hat{y}_i) = \begin{cases}\frac{1}{2}(y - \hat{y}_i)^2, \text{ for} |y_i - \hat{y}_i| \leq \delta \\ \delta (|y_i - \hat{y}_i| - \frac{1}{2}\delta), \text{ otherwise}\end{cases}$$
 ## Classification
-## Cross Entropy Loss
+## Binary Cross Entropy Loss
 Also called log loss, logistic loss, multinomial logistic loss.
 
-$$-\sum_{c=1}^M y_{o, c}\log(p_{o,c})$$
-M is the number of classes
-$y_{o, c}$ is the binary indicator (0 or 1) for observation $o$ and class $c$
-$p_{o,c}$ is the predicted probability for observation $o$ and class $c$.
+$$-\sum_{m=1}^M [y_{o, m}\log(p_{o,m}) + (1 - y_{o,m})\log(1-p_{o,m})]$$
+M is the number of labels (also called class, which can be confusing)
+$y_{o, m}$ is the binary indicator (0 or 1) for observation $o$ and label $m$
+$p_{o,m}$ is the predicted probability for observation $o$ and label $m$.
 
-If M = 2, which means binary classification, the above function reduced to
-$$-[y \log(p) + (1-y) \log(1-p)]$$where $y$ and $p$ is the actual and predicted probability for class 1 (or 0, as they are symmetric).
-### Categorical Cross Entropy
-Categorical cross entropy is also called softmax loss. It is used when the label `y` is one-hot encoded (e.g. `[1, 0, 0], [0, 1, 0]` etc.). When used in neural networks, we usually apply a softmax activate function to the neural network last input, then apply the cross-entropy loss.
+**It is used in binary classification (M = 1) and multi-label classification.**
+## Categorical Cross Entropy Loss
+Categorical cross entropy is also called softmax loss. 
+$$-\sum_{i=1}^C y_i \log(\hat{y}_i)$$
+Where $y$ is the one-hot encoded vector (e.g. `[1, 0, 0], [0, 1, 0]` etc.), and $\hat{y}$ comes from softmax.
+
+**It is used in multi-class classification.** When used in neural networks, we usually apply a softmax activate function to the neural network last input, then apply the cross-entropy loss.
 
 Tensorflow function can be found [here](https://www.tensorflow.org/api_docs/python/tf/keras/losses/CategoricalCrossentropy)
 
-#### Sparse Categorical Cross Entropy
+### Sparse Categorical Cross Entropy
 When use the above formula, the $y_{o,c}$ is expected to be one-hot encoded vector over the categories, which can be very big when the number of classes is big. In Spare Categorical Cross Entropy, we can send in class index as $y_{o, c}$ (e.g. 1, 2, 3 to represent three classes). See [Sparse Categorical Cross Entropy.](https://www.tensorflow.org/api_docs/python/tf/keras/losses/SparseCategoricalCrossentropy)
 
 ### Kullback-Leibler (KL) Divergence

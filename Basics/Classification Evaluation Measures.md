@@ -16,12 +16,17 @@ It is biased when the class is imbalance
 Note: Precision, Recall and F1 are asymmetric metrics, which means that their values depending on which class is considered the positive class
 ### Combination of Basic Measures
 1. F1 Score: Harmonic mean of precision and recall, range from 0 (bad) to 1(good) $$2\times \frac{Precision * Recall}{Precision + Recall}$$
-2. Youden's J index: range from 0(bad) to 1(good) $$Sensitivity + Specificity - 1$$
-3. G-mean  $$\sqrt{\text{recall * Specificity}} = \sqrt{\text{TPR} * (1 - FPR)}$$
+2. Balanced accuracy
+$$ \frac{\text{Sensitivity} + \text{Specificity}}{2}$$
+Balanced accuracy is particularly useful when dealing with imbalanced datasets, where one class has significantly more instances than the other. Traditional accuracy can be misleading in such cases, as a model might achieve high accuracy by simply predicting the majority class, even if it performs poorly on the minority class.
+3. Youden's J index: range from 0(bad) to 1(good) $$Sensitivity + Specificity - 1$$
+4. G-mean  $$\sqrt{\text{Sensitivity * Specificity}} = \sqrt{\text{TPR} * (1 - FPR)}$$
 We can use the above three metrics to select the optimal threshold for classification.
-5.  ROC (Receiver Operating Characteristic) and AUC (Area Under the Curve)
-ROC plots True Positive Rate against False Positive Rate at every probability threshold (decision threshold) of a binary classifier. The best ROC curve is closer to the top left corner. AUC is the area under the ROC curve, ranges from 0 (completely wrong) to 0.5 (random classifier) to 1 (perfect classifier).
+5.  ROC (Receiver Operating Characteristic) and ROC-AUC (Area Under the Curve)
+	ROC plots True Positive Rate (recall) against False Positive Rate at every probability threshold (decision threshold) of a binary classifier. The best ROC curve is closer to the top left corner. ROC-AUC is the area under the ROC curve, ranges from 0 (completely wrong) to 0.5 (random classifier) to 1 (perfect classifier).
 ![[Receiver_Operating_Characteristic_web.png]]
+6. PR (Precision-Recall) curve and PR-AUC. PR curve shows the trade-off between precision and recall of the model. We obtain a PR curve by plotting the precision of the model using different probability thresholds, ranging from 0 to 1 . To summarize the trade-offs between precision and recall, PR-AUC (the area under the precision-recall curve) calculates the area beneath the PR curve. In general, a high PR-AUC indicates a more accurate model.
+![[Pasted image 20250407204014.png]]
 
 ## Relationship with Type I error and Type II error
 In hypothesis testing:
@@ -43,3 +48,4 @@ Follow the convention of treating null hypothesis as 0, and alternative hypothes
 ## References
 1. Multi-class evaluation: https://towardsdatascience.com/comprehensive-guide-on-multiclass-classification-metrics-af94cfb83fbd
 2. Choose threshold: https://towardsdatascience.com/optimal-threshold-for-imbalanced-classification-5884e870c293
+3. Balanced accuracy: https://neptune.ai/blog/balanced-accuracy

@@ -3,7 +3,7 @@
 - AdaBoost = Adaptive Boosting
 - Training Procedure
 	- Assign every observation $x_i$ an initial weight value $w_i = \frac{1}{n}$ where n is the total number of observations
-	- Train a weak model (most often a [[Decision Tree]] with only 1 split, i.e. decision stump )
+	- Train a weak model (most often a [[Decision Tree]] with only 1 split, i.e. decision stump)
 	- For each observation
 		- Calculate **Total Error** $\text{TE} = \frac{w_i \times \text{number of wrongly predicted}}{n}$
 		- Calculate **Importance** (or confidence, or amount of say) of this classifier $\alpha = \frac{1}{2}\ln\frac{1 - \text{TE}}{\text{TE}}$
@@ -25,7 +25,8 @@
 - Questions
 	- Can it apply to regression problem?
 		- Yes! Modify the Total Error equation to reflect average regression loss (one can use linear, square or exponential loss, need to make sure $L_i \in [0, 1]$. Average is weighted average.), and calculate $\alpha = \frac{TE}{1-TE}$. Update the weights as $w_i = w_i \alpha^{(1-L_i)}$
-- Reference
+
+## Reference
 	- https://www.analyticsvidhya.com/blog/2021/09/adaboost-algorithm-a-complete-guide-for-beginners/
 	- https://www.researchgate.net/publication/2424244_Improving_Regressors_Using_Boosting_Techniques
 	- https://www.youtube.com/watch?v=LsK-xG1cLYA

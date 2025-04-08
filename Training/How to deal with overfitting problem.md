@@ -1,5 +1,11 @@
 #trick #overfitting 
 
+## How to check overfitting
+Compare model performance between the training data and a hold-out validation or test data. If there is a huge discrepancy between the performance, it's an indication of overfitting.
+
+Overfitting generally means the model variance is too high - the model is too complex for the data.
+
+## Methods to deal with overfitting
 - The basic idea is if we don't have enough data, don't make model to complex (make it dumb!)
 - Use simple models
 - Get more training data
