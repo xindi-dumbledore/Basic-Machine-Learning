@@ -6,7 +6,7 @@
       {
         "id": "0292e2ec0cea5cd7",
         "type": "tabs",
-        "dimension": 28.006728343145497,
+        "dimension": 49.21700223713646,
         "children": [
           {
             "id": "fdac50257aa9cd93",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basics/Common Loss Function Glossary.md",
+                "file": "ML System Examples/05. Video Recommendation System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Common Loss Function Glossary"
+              "title": "05. Video Recommendation System"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "f9625cd7bda5948c",
         "type": "tabs",
-        "dimension": 71.99327165685449,
+        "dimension": 50.78299776286354,
         "children": [
           {
             "id": "0b7395432eae6cc1",
@@ -35,12 +35,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basics/Random Forest.md",
+                "file": "ML System Examples/06. Event Recommendation System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Random Forest"
+              "title": "06. Event Recommendation System"
             }
           }
         ]
@@ -110,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5
+    "width": 281.5
   },
   "right": {
     "id": "1788f0cf19b66ed9",
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basics/Random Forest.md",
+                "file": "ML System Examples/06. Event Recommendation System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Random Forest"
+              "title": "Backlinks for 06. Event Recommendation System"
             }
           },
           {
@@ -201,8 +201,13 @@
   },
   "active": "0b7395432eae6cc1",
   "lastOpenFiles": [
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+    "ML System Examples/05. Video Recommendation System.md",
+    "ML System Examples/06. Event Recommendation System.md",
+    "ML System Examples/00. Template.md",
+    "Basics/Common Loss Function Glossary.md",
+    "ML System Examples/pngs/Pasted image 20250408140606.png",
+    "Information Retrieval and Recommendation/Recommendation Systems.md",
+    "Basics/Random Forest.md",
     "Basics/Decision Tree.md",
     "Basics/AdaBoost.md",
     "Basics/Boosting.md",
@@ -210,40 +215,7 @@
     "Basics/Gradient Boosting Trees.md",
     "Basics/Ensemble Modeling.md",
     "Basics/Bagging.md",
-=======
-=======
->>>>>>> Stashed changes
-    "Screenshot 2025-04-04 at 11.41.11.png",
-    "Screenshot 2025-04-04 at 11.33.55.png",
-    "Screenshot 2025-04-04 at 11.21.45.png",
-    "Screenshot 2025-04-04 at 11.16.28.png",
-    "ML System Examples/05. Video Recommendation System.md",
-    "ML System Examples/01. Visual Search System.md",
-    "Information Retrieval and Recommendation/Recommendation Systems.md",
-    "Screenshot 2025-04-03 at 13.44.29.png",
-    "Screenshot 2025-04-03 at 13.39.46.png",
-    "Screenshot 2025-04-03 at 13.30.41.png",
-    "Screenshot 2025-04-03 at 13.29.34.png",
-    "Screenshot 2025-04-03 at 13.26.36.png",
-    "NLP/Attention and Self Attention.md",
-    "NLP/Vocabulary & Feature Extraction.md",
-    "ML System Examples/03. YouTube Video Search.md",
-    "Screenshot 2025-04-02 at 8.54.40 PM.png",
-    "Screenshot 2025-04-02 at 8.42.00 PM.png",
-    "NLP/Seq2Seq.md",
-    "NLP/Transformer.md",
-    "Word2Vec.md",
-    "NLP/Doc2vec.md",
-    "NLP/Topic Models.md",
-    "NLP/Text Preprocessing.md",
-    "Deep Learning/Common Activation Function Glossary.md",
-    "Ranking/Learning to Rank Evaluation Measures.md",
-    "ML System Examples/08. Similar Listings on Vacation Rental Platforms.md",
-    "ML System Examples/07. Ad Click Prediction on Social Platforms.md",
->>>>>>> Stashed changes
-    "ML System Examples/06. Event Recommendation System.md",
     "ML System Examples/04. Harmful Content Detection.md",
-    "Basics/Common Loss Function Glossary.md",
     "Data/Class Imbalance.md",
     "Basics/Classification Evaluation Measures.md",
     "Basics/pngs/Pasted image 20250407204014.png",
@@ -260,17 +232,12 @@
     "NLP/GPT.md",
     "NLP/Transformer.md",
     "Training/How to deal with overfitting problem.md",
-    "Basics/Random Forest.md",
-    "Training/Bias-Variance Tradeoff.md",
     "Screenshot 2025-04-04 at 11.41.11.png",
     "Screenshot 2025-04-04 at 11.33.55.png",
     "Screenshot 2025-04-04 at 11.21.45.png",
     "Screenshot 2025-04-04 at 11.16.28.png",
     "ML System Examples/pngs/Screenshot 2025-04-07 at 15.10.08.png",
     "ML System Examples/pngs/Screenshot 2025-04-07 at 14.29.35.png",
-    "ML System Examples/pngs/Pasted image 20250407151723.png",
-    "ML System Examples/Handle Multi-modal in Modeling.md",
-    "ML System Examples/10. People You May Know.md",
     "Untitled.canvas",
     "ML System Examples/pngs",
     "ML Design",
