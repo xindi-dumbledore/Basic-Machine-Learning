@@ -4,30 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "0292e2ec0cea5cd7",
-        "type": "tabs",
-        "dimension": 49.21700223713646,
-        "children": [
-          {
-            "id": "fdac50257aa9cd93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML System Examples/05. Video Recommendation System.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "05. Video Recommendation System"
-            }
-          }
-        ]
-      },
-      {
         "id": "f9625cd7bda5948c",
         "type": "tabs",
-        "dimension": 50.78299776286354,
         "children": [
           {
             "id": "0b7395432eae6cc1",
@@ -35,15 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML System Examples/06. Event Recommendation System.md",
+                "file": "NLP/Fine-tuning Generation Models.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06. Event Recommendation System"
+              "title": "Fine-tuning Generation Models"
+            }
+          },
+          {
+            "id": "86fb8dabcf3b316d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLP/Fine-tuning Generation Models.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fine-tuning Generation Models"
+            }
+          },
+          {
+            "id": "96f1e388796bea13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLP/Fine-tuning Generation Models.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fine-tuning Generation Models"
+            }
+          },
+          {
+            "id": "e85bf71f3a6382c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLP/Retrieval Augmented Generation (RAG).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Retrieval Augmented Generation (RAG)"
+            }
+          },
+          {
+            "id": "3bfe3d64676ac486",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLP/LLM for Search.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LLM for Search"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -75,8 +110,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "positional bias",
+                "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
@@ -110,7 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 414.5
   },
   "right": {
     "id": "1788f0cf19b66ed9",
@@ -126,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML System Examples/06. Event Recommendation System.md",
+                "file": "ML System Examples/00. Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +171,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 06. Event Recommendation System"
+              "title": "Backlinks for 00. Template"
             }
           },
           {
@@ -187,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,45 +235,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b7395432eae6cc1",
+  "active": "3bfe3d64676ac486",
   "lastOpenFiles": [
-    "ML System Examples/05. Video Recommendation System.md",
-    "ML System Examples/06. Event Recommendation System.md",
-    "ML System Examples/00. Template.md",
-    "Basics/Common Loss Function Glossary.md",
-    "ML System Examples/pngs/Pasted image 20250408140606.png",
+    "NLP/Retrieval Augmented Generation (RAG).md",
+    "NLP/pngs/Screenshot 2025-06-14 at 10.55.01 PM.png",
+    "NLP/pngs/Screenshot 2025-06-14 at 10.51.59 PM.png",
+    "NLP/LLM for Search.md",
+    "NLP/pngs/Screenshot 2025-06-14 at 10.48.22 PM.png",
+    "NLP/Fine-tuning Generation Models.md",
+    "NLP/Proximal Policy Optimization.md",
+    "NLP/GPT.md",
+    "NLP/Evaluating Generative Models.md",
+    "NLP/Perplexity.md",
+    "NLP/LSTM.md",
+    "NLP/pngs/Screenshot 2025-06-14 at 2.49.35 PM.png",
+    "NLP/pngs/Screenshot 2025-06-14 at 2.48.36 PM.png",
+    "NLP/pngs/Screenshot 2025-06-14 at 2.44.28 PM.png",
+    "NLP/pngs/Screenshot 2025-06-14 at 2.40.09 PM.png",
+    "NLP/pngs/Screenshot 2025-06-14 at 2.38.08 PM.png",
+    "NLP/pngs",
+    "NLP/Language Modeling.md",
+    "NLP/Name Entity Recognition.md",
     "Information Retrieval and Recommendation/Recommendation Systems.md",
-    "Basics/Random Forest.md",
-    "Basics/Decision Tree.md",
-    "Basics/AdaBoost.md",
-    "Basics/Boosting.md",
-    "Basics/XGBoost.md",
-    "Basics/Gradient Boosting Trees.md",
-    "Basics/Ensemble Modeling.md",
-    "Basics/Bagging.md",
-    "ML System Examples/04. Harmful Content Detection.md",
-    "Data/Class Imbalance.md",
+    "ML System Examples/05. Video Recommendation System.md",
     "Basics/Classification Evaluation Measures.md",
+    "Information Retrieval and Recommendation/Position Bias in Ranking.md",
+    "Ranking/Counterfactual Learning to Rank.md",
+    "NLP/Recurrent Neural Networks (RNN).md",
+    "NLP/Vocabulary & Feature Extraction.md",
+    "NLP/Text Preprocessing.md",
+    "NLP/Tokenization.md",
+    "NLP/Seq2Seq.md",
+    "NLP/T5.md",
+    "Basics/Bagging.md",
+    "NLP/Transformer.md",
+    "NLP/BERT.md",
+    "NLP/Attention and Self Attention.md",
+    "ML System Examples/pngs/Pasted image 20250408140606.png",
     "Basics/pngs/Pasted image 20250407204014.png",
     "Basics/pngs",
-    "ML System Examples/pngs/Pasted image 20250407203118.png",
-    "ML System Examples/Different Type of Classification.md",
-    "ML System Examples/Multi-task Classification.md",
-    "ML System Examples/pngs/Pasted image 20250407193944.png",
-    "ML System Examples/Bias and Variance Tradeoff.md",
-    "NLP/Seq2Seq.md",
-    "NLP/Attention and Self Attention.md",
-    "NLP/BERT.md",
-    "Ranking/Ranking Models.md",
-    "NLP/GPT.md",
-    "NLP/Transformer.md",
-    "Training/How to deal with overfitting problem.md",
-    "Screenshot 2025-04-04 at 11.41.11.png",
-    "Screenshot 2025-04-04 at 11.33.55.png",
-    "Screenshot 2025-04-04 at 11.21.45.png",
-    "Screenshot 2025-04-04 at 11.16.28.png",
-    "ML System Examples/pngs/Screenshot 2025-04-07 at 15.10.08.png",
-    "ML System Examples/pngs/Screenshot 2025-04-07 at 14.29.35.png",
     "Untitled.canvas",
     "ML System Examples/pngs",
     "ML Design",
