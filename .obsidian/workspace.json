@@ -13,16 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Prompt Engineering Tips.md",
+                "file": "NLP/Prompt Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prompt Engineering Tips"
+              "title": "Prompt Engineering"
             }
           },
           {
             "id": "cef26a03aa8462ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLP/LLM Model Output Control Parameters.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LLM Model Output Control Parameters"
+            }
+          },
+          {
+            "id": "cd1137230e8da5ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLP/Improve output of LLM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Improve output of LLM"
+            }
+          },
+          {
+            "id": "2d6d9a785b90395c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,6 +61,20 @@
               },
               "icon": "lucide-file",
               "title": "Transformer"
+            }
+          },
+          {
+            "id": "fe734b793b2aaf77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NLP/Agents - Creating a System of LLMs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Agents - Creating a System of LLMs"
             }
           },
           {
@@ -50,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -207,14 +249,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cef26a03aa8462ca",
+  "active": "2d6d9a785b90395c",
   "lastOpenFiles": [
+    "NLP/LSTM.md",
+    "NLP/LangChain.md",
+    "NLP/Agents - Creating a System of LLMs.md",
+    "NLP/pngs/Screenshot 2025-06-15 at 8.45.30 PM.png",
+    "NLP/pngs/Screenshot 2025-06-15 at 8.45.05 PM.png",
+    "NLP/LLM Memory.md",
+    "NLP/pngs/Screenshot 2025-06-15 at 8.39.18 PM.png",
+    "NLP/Improve output of LLM.md",
+    "NLP/pngs/Screenshot 2025-06-15 at 8.36.56 PM.png",
+    "NLP/pngs/Screenshot 2025-06-15 at 8.36.07 PM.png",
+    "NLP/pngs/Screenshot 2025-06-15 at 8.24.08 PM.png",
     "NLP/LLM Model Output Control Parameters.md",
-    "NLP/pngs/Screenshot 2025-06-15 at 7.55.47 PM.png",
-    "NLP/Prompt Engineering Tips.md",
+    "NLP/pngs/Screenshot 2025-06-15 at 8.21.30 PM.png",
+    "NLP/Prompt Engineering.md",
+    "NLP/pngs/Screenshot 2025-06-15 at 8.18.29 PM.png",
+    "NLP/pngs/Screenshot 2025-06-15 at 8.17.33 PM.png",
+    "NLP/pngs/Screenshot 2025-06-15 at 8.16.34 PM.png",
+    "NLP/T5.md",
+    "NLP/Transformer.md",
     "Ranking/RankNet.md",
     "Ranking/Ranking Models.md",
-    "NLP/Transformer.md",
     "NLP/Fine-tuning Generation Models.md",
     "Deep Learning/Batch Normalization.md",
     "NLP/Recurrent Neural Networks (RNN).md",
@@ -230,20 +287,6 @@
     "NLP/LLM for Search.md",
     "NLP/Tokenization.md",
     "NLP/Vocabulary & Feature Extraction.md",
-    "NLP/Seq2Seq.md",
-    "NLP/SentencePiece.md",
-    "pngs/Screenshot 2025-04-04 at 11.16.28 1.png",
-    "What is Machine Learning.md",
-    "NLP/Word2Vec.md",
-    "Training/Vanishing and Exploding Gradients.md",
-    "NLP/pngs/Screenshot 2025-06-14 at 10.55.01 PM.png",
-    "NLP/pngs/Screenshot 2025-06-14 at 10.51.59 PM.png",
-    "NLP/pngs/Screenshot 2025-06-14 at 10.48.22 PM.png",
-    "NLP/pngs/Screenshot 2025-06-14 at 2.49.35 PM.png",
-    "NLP/pngs/Screenshot 2025-06-14 at 2.48.36 PM.png",
-    "NLP/pngs/Screenshot 2025-06-14 at 2.44.28 PM.png",
-    "NLP/pngs/Screenshot 2025-06-14 at 2.40.09 PM.png",
-    "NLP/pngs/Screenshot 2025-06-14 at 2.38.08 PM.png",
     "NLP/pngs",
     "Basics/pngs",
     "Untitled.canvas",

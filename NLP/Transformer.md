@@ -53,3 +53,5 @@ We also attend decoder to encoder.
 - Scaling the dot product in attention
 	- After calculate Query x Key, divided by $\sqrt{d/h}$
 		- $\text{softmax}(\frac{XQK^TX^T}{\sqrt{d/h}})XV$
+## References
+https://www.youtube.com/watch?v=zxQyTK8quyY
