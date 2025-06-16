@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Improve output of LLM.md",
+                "file": "NLP/TF-IDF.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Improve output of LLM"
+              "title": "TF-IDF"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NLP/Transformer.md",
+                "file": "NLP/GPT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transformer"
+              "title": "GPT"
             }
           },
           {
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -249,8 +249,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d6d9a785b90395c",
+  "active": "cd1137230e8da5ff",
   "lastOpenFiles": [
+    "NLP/Prompt Engineering.md",
+    "NLP/Improve output of LLM.md",
+    "NLP/LLM Model Output Control Parameters.md",
+    "NLP/GPT.md",
+    "NLP/Transformer.md",
+    "NLP/Tokenization.md",
+    "NLP/SentencePiece.md",
+    "Basics/Gradient Boosting Trees.md",
+    "Basics/Ensemble Modeling.md",
+    "NLP/BLIP-2 - Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation.md",
+    "NLP/pngs/Screenshot 2025-06-16 at 8.57.33 AM.png",
+    "NLP/pngs/Screenshot 2025-06-16 at 8.57.17 AM.png",
+    "NLP/pngs/Screenshot 2025-06-16 at 8.54.37 AM.png",
+    "NLP/Contrastive Language-Image Pre-training (CLIP).md",
+    "NLP/pngs/Screenshot 2025-06-16 at 8.51.19 AM.png",
+    "NLP/pngs/Screenshot 2025-06-16 at 8.50.27 AM.png",
+    "NLP/Vision Transformer (ViT).md",
+    "NLP/pngs/Screenshot 2025-06-16 at 8.47.18 AM.png",
+    "NLP/Language Modeling.md",
     "NLP/LSTM.md",
     "NLP/LangChain.md",
     "NLP/Agents - Creating a System of LLMs.md",
@@ -258,18 +277,8 @@
     "NLP/pngs/Screenshot 2025-06-15 at 8.45.05 PM.png",
     "NLP/LLM Memory.md",
     "NLP/pngs/Screenshot 2025-06-15 at 8.39.18 PM.png",
-    "NLP/Improve output of LLM.md",
     "NLP/pngs/Screenshot 2025-06-15 at 8.36.56 PM.png",
-    "NLP/pngs/Screenshot 2025-06-15 at 8.36.07 PM.png",
-    "NLP/pngs/Screenshot 2025-06-15 at 8.24.08 PM.png",
-    "NLP/LLM Model Output Control Parameters.md",
-    "NLP/pngs/Screenshot 2025-06-15 at 8.21.30 PM.png",
-    "NLP/Prompt Engineering.md",
-    "NLP/pngs/Screenshot 2025-06-15 at 8.18.29 PM.png",
-    "NLP/pngs/Screenshot 2025-06-15 at 8.17.33 PM.png",
-    "NLP/pngs/Screenshot 2025-06-15 at 8.16.34 PM.png",
     "NLP/T5.md",
-    "NLP/Transformer.md",
     "Ranking/RankNet.md",
     "Ranking/Ranking Models.md",
     "NLP/Fine-tuning Generation Models.md",
@@ -277,16 +286,7 @@
     "NLP/Recurrent Neural Networks (RNN).md",
     "NLP/GRU.md",
     "NLP/Retrieval Augmented Generation (RAG).md",
-    "NLP/Language Modeling.md",
-    "NLP/GPT.md",
     "NLP/Evaluating Generative Models.md",
-    "NLP/Doc2vec.md",
-    "NLP/Byte Pair Encoding (BPE).md",
-    "NLP/BERT.md",
-    "NLP/Attention and Self Attention.md",
-    "NLP/LLM for Search.md",
-    "NLP/Tokenization.md",
-    "NLP/Vocabulary & Feature Extraction.md",
     "NLP/pngs",
     "Basics/pngs",
     "Untitled.canvas",

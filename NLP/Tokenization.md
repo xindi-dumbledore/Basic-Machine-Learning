@@ -39,8 +39,6 @@ Subword Tokenization splits the piece of text into subwords (or n-gram character
 	- [[WordPiece]]
 	- [[Unigram]]
 
-
-
 ## Reference
 1. https://www.analyticsvidhya.com/blog/2020/05/what-is-tokenization-nlp/
 2. https://huggingface.co/docs/transformers/tokenizer_summary#wordpiece
