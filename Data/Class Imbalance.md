@@ -28,7 +28,7 @@ p.g. 104 of *[[Designing Machine Learning Systems]]*
 	- Cost-sensitive learning
 		- Define a cost matrix for each class and their outcome, and weight the loss based on the cost matrix
 ![[cost_matrix.png]]
-	- Class-balanced loss
+		- Class-balanced loss
 		- punish the model for making wrong predictions on minority classes
 		- weight each class's loss by $N/\text{number of samples of class }i$
 	- Focal loss

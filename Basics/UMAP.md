@@ -16,7 +16,6 @@ Number of high dimensional neighbors each point should have $n$
 4. Initialize initial low-dimensional graph using spectral embedding
 5. Calculate low-dimensional similarity scores: $\frac{1}{1 + \alpha d^{2\beta}}$, where $d$ is the low dimensional distance
 6. Moving the low-dimensional points
-7. 
 
 
 ## Reference

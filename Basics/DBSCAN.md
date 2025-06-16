@@ -1,12 +1,12 @@
 #clustering 
 
 ## High Level Summary
-Density-Based Spatial Clustering of Applications with Noise (DBSCAN) is a clustering algorithm based on the assumption that clusters are dense areas. DBSCAN groups together points that are close to each other based on a distance measurement and a minimum number of points. It also marks as outliers the points that are in low-density regions.
+**Density-Based Spatial Clustering of Applications with Noise (DBSCAN)** is a clustering algorithm based on the assumption that clusters are dense areas. DBSCAN groups together points that are close to each other based on a distance measurement and a minimum number of points. It also marks as outliers the points that are in low-density regions.
 
 ## Detail
 ### Parameters
-- eps: the threshold to consider two points are considered close points (i.e. neighbors)
-- minPoints: the minimum number of points to form a dense region
+- `eps`: the threshold to consider two points are considered close points (i.e. neighbors)
+- `minPoints`: the minimum number of points to form a dense region
 ### Clustering process
 1. For every data point, obtain the close points from that point (using eps)
 2. For every data point with number of close points > minPoints, call them core points

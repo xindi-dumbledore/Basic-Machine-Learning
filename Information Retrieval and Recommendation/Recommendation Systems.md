@@ -41,7 +41,7 @@ Hybrid filtering combined both content-based filtering and collaborative filteri
 ## Common Architecture for Recommendation Models
 ### Matrix Factorization
 Matrix factorization is the classic method for collaborative filtering. In this method, we decompose the user-video feedback matrix into two lower dimension matrices, the user embeddings matrix and the video embedding matrix. (In some literature, it is also interpreted as user x topic and topic x video). 
-![[Screenshot 2025-04-04 at 11.16.28.png]]
+![[Screenshot 2025-04-04 at 11.16.28 1.png]]
 #### Feedback matrix
 To use matrix factorization, we need to curate a user-video feedback matrix. The feedbacks can come from
 - explicit feedback: e.g. likes/dislikes, shares, less data more accurate
@@ -55,7 +55,7 @@ During training, the goal is to make the two matrix product as close to the orig
 - Squared distance over both unobserved and observed <user, video> pairs: this loss function treats unobserved as 0, and include them into the calculation as well.
 	- unobserved is dominated during training because positive labels are sparse, this may lead to all predictions closer to 0
 - Weighted combination of unobserved and observed pairs
-![[Screenshot 2025-04-04 at 11.21.45.png]]
+![[Screenshot 2025-04-04 at 11.21.45 1.png]]
 **Optimization**
 - Stochastic Gradient Descent: see [[Batch, Stochastic and Mini-batch Gradient Descent]]
 - Weighted alternating Least Squares (WALS), which is an [[Expectation Maximization]] algorithm and is specific to matrix refactorization
@@ -73,14 +73,14 @@ Cons
 
 ### Two-tower neural network
 In the two-tower neural network, there are two towers: user tower and video tower. The user tower has an user encoder that will convert user features to a user embedding, and the video tower has a video encoder that will convert video features to a video embedding. Finally, the relevance score is computed by the dot product of the two embeddings.
-![[Screenshot 2025-04-04 at 11.33.55.png]]
+![[Screenshot 2025-04-04 at 11.33.55 1.png]]
 #### Training
 **Dataset**
 To train the two-tower neural network, we need to gather positive and negative <user, video> pairs and their associated features. Positive pairs can be obtained from user feedbacks. Negative pairs can be obtained from sampling from the video pool that doesn't appear in the positive pairs. Pay attention to the data imbalance issue.
 
 **Loss function**
 Since the two-tower network output binary labels, it's a classification task. Therefore, we can use cross-entropy as the loss function.
-![[Screenshot 2025-04-04 at 11.41.11.png]]
+![[Screenshot 2025-04-04 at 11.41.11 1.png]]
 #### Inference
 - Assuming all videos are embedded and indexed using the video encoder and indexing service
 - For a given user, we first get its user embedding using the trained user encoder

@@ -50,7 +50,7 @@ Hamming loss is a generalization of the 0-1 loss to multiple classes
 Hamming loss is most useful for multi-label classifications, where a data point can belong to multiple classes.
 ![[hamming loss multi-label.png]]
 ## Contrastive Losses
-Contrastive losses are commonly used in representation learning, e.g. we want to learn some images so that we can find similar images (see [[01. Visual Search System]]). The main idea is that after getting the embeddings, we want to push embeddings of similar items close to each other, and embeddings of dissimilar embeddings further to each other. There are a lot of variations of contrastive losses.
+Contrastive losses are commonly used in representation learning/contrastive learning, e.g. we want to learn some images so that we can find similar images (see [[01. Visual Search System]]). The main idea is that after getting the embeddings, we want to push embeddings of similar items close to each other, and embeddings of dissimilar embeddings further to each other. There are a lot of variations of contrastive losses.
 ### The original contrastive loss
 Suppose we have some input samples $\{x_i\}$ (e.g. images) and each has a corresponding label $y_i \in \{1, ..., M\}$ among $M$ classes. We learn an embedding function $f_{\theta}$ that encodes $x_i$ into an embedding vector $e_i$. We choose a distance function (e.g. euclidean distance, cosine distance, etc.) $D(e_i, e_j)$ that will calculate the distance between the embeddings for $e_i$ and $e_j$. Then we can write the contrastive loss as:
 $$L(x_i, x_j) = \mathbb{1}[y_i = y_j]D(e_i, e_j) + \mathbb{1}[y_i \neq y_j]\max(0, \epsilon - D(e_i, e_j))$$

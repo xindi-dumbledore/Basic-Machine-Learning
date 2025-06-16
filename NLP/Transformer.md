@@ -1,6 +1,15 @@
 #NLP 
 ## High level summary
-The Transformer Encoder-Decoder 
+The Transformer Encoder-Decoder has the following important components:
+1. word embedding: which converts the word to numbers
+2. positional encoding: encode positional information so that we keep in mind the word order
+3. Self attention: keep track of the relationship between words within the same sequence. It is masked in the decoder part to prevent leakage.
+4. Encoder-decoder cross attention: attend decoder to encoder so that we keep track of the relationship between generated sequence to the original sequence
+
+And there are several additional tricks to help training:
+1. Layer normalization
+2. Residual connections
+3. Scaling in the attention similarity calculation (i.e. query x key dot product)
 
 ## Issues with RNN
 - Linear interaction distance

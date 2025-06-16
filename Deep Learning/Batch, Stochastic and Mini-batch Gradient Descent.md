@@ -16,4 +16,3 @@ Mini-batch Gradient Descent is in between, so potentially achieves best of both 
 
 ## Reference
 1. https://towardsdatascience.com/https-towardsdatascience-com-why-stochastic-gradient-descent-works-9af5b9de09b8
-2. 

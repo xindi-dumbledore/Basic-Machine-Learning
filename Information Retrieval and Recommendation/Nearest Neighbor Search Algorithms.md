@@ -23,7 +23,7 @@ As more nodes are added, the network dynamically updates, always seeking to main
 
 ### Search
 1. **Starting the search:** The ANN search begins at the top layer of the HNSW graph, which has the fewest nodes (vectors). The aim is to find a node that serves as a good entry point because it’s close to the query vector in the vector space.
-2. **Gathering candidates:** As the search progresses to lower layers, it’s not just about finding a single vector closest to the query. The algorithm collects a set of candidate vectors that are close to the query vector, effectively gathering a “pool” of potential nearest neighbours.
+2. **Gathering candidates:** As the search progresses to lower layers, it’s not just about finding a single vector closest to the query. The algorithm collects a set of candidate vectors that are close to the query vector, effectively gathering a “pool” of potential nearest neighbors.
 3. **Choosing the top 5 candidates:** At each layer, the algorithm evaluates the distances between the query vector and the vectors in the candidate pool. If a vector is found to be closer than the current candidates, it is included in the pool, potentially replacing a farther candidate to maintain the pool size (e.g. top 5 closest vectors). This dynamic updating process ensures that only the closest vectors are retained as the search progresses.
 4. **Knowing when to stop:** Determining when to stop the search is one of the challenges of this algorithm. The hyperparameter is used to set the size of the dynamic candidate list, which affects both accuracy and search time. The search ends when further exploration fails to find closer vectors.
 HNSW can achieve logarithmic time complexity, which is very important in large scale system

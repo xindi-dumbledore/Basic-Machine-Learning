@@ -1,7 +1,7 @@
 ## What it is
 Position bias: Top items receive more clicks only because of their position?
 
-A list of items are served to users for search or recommendation. Items at a higher rank are more likely to be clicked by users. Items at the bottom have a smaller chance to be viewed by users at all, hence will organically have fewer clicks.
+A list of items are served to users for search or recommendation. Items at a higher rank are more likely to be clicked by users. Items at the bottom have a lower chance to be viewed by users at all, hence will organically have fewer clicks.
 
 ## How to offset position bias
 ### Method 1: Inverse Propensity Weighting

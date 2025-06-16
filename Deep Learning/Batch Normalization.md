@@ -5,7 +5,7 @@ Similar to normalizing inputs to speed up learning, we normalize values of each 
 
 ## Detail
 ### How to do batch normalization
-Given inputs $x$ over a minibatch of size $m$: $B = \{z^{(1)}, ... z^{(m)}\}$, where $z^{(i)}$ is the pre-activation corresponding to neuron $i$ in a layer.
+Given inputs $x$ over a minibatch of size $m$ $B = \{x^{(1)}, ... x^{(m)}\}$, by applying transformation of your inputs using some learned parameters $\gamma$ and $\beta$, the outputs could be expressed as $B' = \{z^{(1)}, ... z^{(m)}\}$, where $z^{(i)}$ is the pre-activation corresponding to neuron $i$ in a layer.
 	Normalization so that we have mean = 0 and variance = 1
 	$$\mu = \frac{1}{m}\sum_{i = 1}^m z^{(i)}$$$$\sigma = \frac{1}{m}\sum_{i=1}^m(z^{(i)} - \mu)^2$$$$z^{(i)}_{norm} = \frac{z^{(i)} - \mu}{\sigma}$$
 	Calculate new values for this layer, $\gamma$ and $\beta$ is learnable, so that the distribution of the values isn't limited to be mean = 0 and variance = 1 $$\tilde{z}^{(i)} = \gamma z^{i}_{norm} + \beta$$
@@ -31,3 +31,7 @@ for t = 1, ... mini_batches -> this is why it is called batch normalization
 2. https://www.youtube.com/watch?v=em6dfRxYkYU&list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc&index=28
 3. https://www.youtube.com/watch?v=em6dfRxYkYU&list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc&index=27
 4. https://www.youtube.com/watch?v=em6dfRxYkYU&list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc&index=30
+5. https://www.youtube.com/watch?v=VIBQDCP3TZM
+
+In batch normalization, input values of the same neuron for all the data in the minibatch are normalized.
+In layer normalization, input values for all neurons in the same layer are normalized for each data sample. 

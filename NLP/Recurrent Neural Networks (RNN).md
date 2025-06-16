@@ -10,7 +10,7 @@ RNN is a family of neural networks that take sequential input of any length, app
 - Get a big corpus of text, i.e. sequences of words
 - Feed all the sequence into RNN, compute output distribution $\hat{y}^{(t)}$ for every time step $t$
 - Not only the end of the sequence, but all the time steps in between
-- Loss function on step $t$ is cross-entropy between predicted probability distribution $\hat{y}^{(t)}$ and the true next word $y^{(t)}$ (represented as a one-hot vector of word $x^{(t+1)}) $$J^{(t)}(\theta) = - \sum_{w\in V} y_w^{(t)}\log \hat{y}_w^{(t)} = - \log \hat{y}_{x_{t+1}}^{(t)}$$
+- Loss function on step $t$ is cross-entropy between predicted probability distribution $\hat{y}^{(t)}$ and the true next word $y^{(t)}$ (represented as a one-hot vector of word $x^{(t+1)}$) $$J^{(t)}(\theta) = - \sum_{w\in V} y_w^{(t)}\log \hat{y}_w^{(t)} = - \log \hat{y}_{x_{t+1}}^{(t)}$$
 - Overall loss is the average for the entire training set $$J(\theta) = \frac{1}{T}\sum_{t = 1}^T J^{(t)}(\theta)$$
 - We use stochastic (actually mini-batch) gradient descent, updating the parameters on a batch of sentences for each mini-batch
 ## Backpropagations for RNN: **Backpropagation through time**

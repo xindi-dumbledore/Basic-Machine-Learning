@@ -1,5 +1,4 @@
 ## 9-Step ML Design Formula
-
 1. Problem Formulation
 2. Metrics (Offline and Online)
 3. Architectural Components

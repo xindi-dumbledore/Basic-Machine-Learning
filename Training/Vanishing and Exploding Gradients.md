@@ -3,10 +3,10 @@ For deep neural networks, it is very likely to encounter vanishing or exploding 
 ## Vanishing and Exploding Gradients in RNN
 The problem of vanishing and exploding gradients is more prominently in RNN as the weights are shared across time steps, so we have repeated multiplication by the same weight matrix
 
-Vanishing gradients
+**Vanishing gradients**
 Gradient signal from far away is lost because it's much smaller than gradient signal from close-by. So model weights are updated only with respect to near effects, not long-term effects. Therefore, it is hard for the model to learn dependency between words
 
-Exploding gradients
+**Exploding gradients**
 - If the gradient becomes too big, the SGD update step becomes too big and it's hard to do optimization
 - Can cause number overflow
 

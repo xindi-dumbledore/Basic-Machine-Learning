@@ -1,6 +1,6 @@
 #LLM #information-retrieval 
 
-To turn common search system into a RAG system, we add an LLM to the end of the search pipeline. We present the question and the top retrieved documents to the LLM, and ask it to answer the question given the context provided by the search results.
+To turn common search system into a RAG system, we add an LLM to the end of the search pipeline. We present the question and the top retrieved documents (usually chunked first then saved to vector store, so when we retrieve we are retrieving short document chuncks) to the LLM, and ask it to answer the question given the context provided by the search results.
 
 This generation step is called grounded generation because the retrieved relevant information we provide the LLM establishes a certain context that grounds the LLM in the domain we are interested in.
 
