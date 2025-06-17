@@ -19,7 +19,7 @@ $P(Y)$ probability density of the output
 	- risk of breast cancer is higher for women over the age of 40
 	- have more women over the age of 40 in the training data than in the inference data
 	- $P(X)$: probability for a sample with age higher than 40, changed
-	- $P(Y|X)$: risk of breast cancer agains age, unchanged
+	- $P(Y|X)$: risk of breast cancer against age, unchanged
 - Potential reasons
 	- Biases during data selection process, e.g. we get data from a breast cancer test center, people over 40 are encouraged to do more checkups
 	- Training data is artificially altered to make it easier for the model to learn

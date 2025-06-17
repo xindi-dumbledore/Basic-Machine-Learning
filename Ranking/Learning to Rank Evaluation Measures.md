@@ -54,7 +54,7 @@ $$\tau = \frac{C-D}{C+D}$$
 ## Diversity
 Probably only suitable for recommendation use-cases, diversity measure how dissimilar the items in a list are to each other. This metric is important for recommendation systems as users are more interested in diversified recommendations.
 
-To measure diversity, we calculate the average pairwise similarity (e.g. cosine similarity) between items in the list. A low average pairwise similarity score indicates the list is more diverse.
+To measure diversity, we calculate the **average pairwise similarity (e.g. cosine similarity) between items in the list**. A low average pairwise similarity score indicates the list is more diverse.
 
 ## Reference
 1. https://medium.com/@m_n_malaeb/recall-and-precision-at-k-for-recommender-systems-618483226c54

@@ -2,16 +2,6 @@
 
 Tokenization is the foremost step while modeling text data, which is used to prepare a vocabulary. It will also separate a given text into small tokens, which can be later processed by model structures such as RNN, Transformers, etc.
 
-
-
-
-Subword Tokenization
-
-
-Subword Tokenization splits the piece of text into subwords (or n-gram characters). For example, words like lower can be segmented as "low-er", smartest as "smart-est", and so on.
-
-## Subword Tokenization
-
 ## Word-levelTokenization
 - The most common type of tokenization, e.g. WhiteSpaceTokenization
 - Word2Vec and Glove all uses word-level tokenization

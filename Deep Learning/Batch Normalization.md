@@ -33,5 +33,12 @@ for t = 1, ... mini_batches -> this is why it is called batch normalization
 4. https://www.youtube.com/watch?v=em6dfRxYkYU&list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc&index=30
 5. https://www.youtube.com/watch?v=VIBQDCP3TZM
 
-In batch normalization, input values of the same neuron for all the data in the minibatch are normalized.
-In layer normalization, input values for all neurons in the same layer are normalized for each data sample. 
+In batch normalization, input values of the same neuron for all the data in the minibatch are normalized. Widely used in feedforward network and CNNs
+	Batch normalization is dependent on minibatch size, if the size is too small, it's not very stable.
+	Batch normalization is not suitable for RNN because the input size varies.
+In layer normalization, input values for all neurons in the same layer are normalized for each data sample. Widely used in NLP.
+	layer normalization is less effective in CNNs
+	LN can be slightly more computationally intensive in some cases since it normalizes over a larger set of parameters.
+
+
+https://medium.com/biased-algorithms/batch-normalization-vs-layer-normalization-c44472883bf2

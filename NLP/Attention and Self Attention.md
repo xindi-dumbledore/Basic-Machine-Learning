@@ -26,6 +26,6 @@ Self attention basically means attention within a single sentence. Therefore in 
 ### Masking the Future in Self Attention
 - To use self-attention in decoders, we need to ensure we can't peek at the future: when $j >= i$, $$e_{ij} = -\infty$$
 ## Multihead Attention
-
+We can have multiple query, key, value matrix, i.e. different attention head. The intuition is that we are capturing different types of relationships between the tokens.
 ## Reference
 1. https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1214/slides/cs224n-2021-lecture07-nmt.pdf
